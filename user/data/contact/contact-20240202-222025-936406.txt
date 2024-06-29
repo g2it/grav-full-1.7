@@ -1,0 +1,25 @@
+First Name: Vlad Smolov
+Last Name: Vlad Smolov
+Phone: http://rozumtech.com
+Email: info@rozumtech.com
+Office: esperance
+Enquiry Details: Hello, I’m reaching out to your company, because I thought that you probably need software engineers for your business. I represent RozumTech - we provide highly qualified developers at affordable rates starting from 20$/h. All our developers are based in Europe, mostly in Poland. 
+ 
+We offer developers with the following stacks: 
+Front-end(React / Redux, Vue, Angular, Next / Nuxt, jQuery, Bootstrap) 
+Back-end(Java, Python, C#, PHP, Go, JavaScript) 
+iOS (Swift) 
+Android (Kotlin, Java) 
+Cross-platform (Flutter, React Native) 
+WordPress (PHP) 
+QA Automation and Manual 
+SAP 
+And other (on request) 
+ 
+Also, our developers are ready to start working on your project within 5 business days. 
+ 
+Feel free to reach out to us: 
+http://rozumtech.com 
++48500553214 
+info@rozumtech.com
+

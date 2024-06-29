@@ -1,0 +1,16 @@
+title: Stripe
+'@extends':
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      fields:
+        stripe:
+          type: tab
+          title: Stripe
+          fields:
+            header.success_message:
+              type: editor
+              label: PLUGIN_STRIPE.SUCCESS_MESSAGE

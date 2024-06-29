@@ -1,0 +1,7 @@
+First Name: Robert
+Last Name: Nathan
+Phone: 0401140070
+Email: rob@robnathan.com.au
+Office: fremantle
+Enquiry Details: We are looking for a new wi-fi network in our office in Fremantle.
+

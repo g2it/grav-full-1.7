@@ -1,0 +1,7 @@
+enabled: true
+secret_key: sk_live_YkYp1xpYkfE3fYa2icADrY7o00cI1TVQK5
+public_key: pk_live_4nHEUsE8WlHBM2EEq5eCBDNf00WqxzYtXP
+default_currency: aud
+amount_prefix: $
+amount_postfix: null
+payment_description: 'Payment for invoice INVOICE_NUMBER'

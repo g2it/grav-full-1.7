@@ -1,0 +1,150 @@
+{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+
+<!DOCTYPE html>
+<html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}">
+<head>
+{% block head %}
+    <meta charset="utf-8" />
+    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    {% include 'partials/metadata.html.twig' %}
+
+    {% set favicon_url = theme_config.favicon ? url('theme://images/' ~ theme_config.favicon) : url('theme://images/favicon.png') %}
+    {% set favicon_apple_url = theme_config.favicon_apple ? url('theme://images/' ~ theme_config.favicon_apple) : url('theme://images/favicon.png') %}
+    {% set favicon_72_url = theme_config.favicon_72 ? url('theme://images/' ~ theme_config.favicon_72) : url('theme://images/favicon.png') %}
+    {% set favicon_144_url = theme_config.favicon_144 ? url('theme://images/' ~ theme_config.favicon_144) : url('theme://images/favicon.png') %}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ favicon_url }}" />
+    <link rel="apple-touch-icon" href="{{ favicon_apple_url }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ favicon_72_url }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ favicon_144_url }}">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+    <link rel="canonical" href="{{ page.url(true, true) }}" />
+
+    {% block stylesheets %}
+        {% do assets.addCss('theme://css/main.min.css') %}
+        {% if page.template == 'modular' %}
+          {% for child in page.children %}
+            {% if child.template == 'modular/banner' %}
+              {% do assets.addCss('theme://css/vegas.min.css') %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+    {% endblock %}
+    {{ assets.css() }}
+
+    {% block more_css %}{% endblock %}
+    {{ assets.css('morecss') }}
+
+
+    {% block javascripts %}
+        {% do assets.addJs('jquery', 101) %}
+        {% do assets.addJs('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', {group:'bottom'}) %}
+        {% do assets.addJs('theme://js/smooth-scroll.min.js', {group:'bottom'}) %}
+        {% do assets.addJs('theme://js/jquery.mobile.custom.min.js', {group:'bottom'}) %}
+    {% endblock %}
+    {{ assets.js() }}
+
+    {% block more_js %}{% endblock %}
+
+
+{% endblock head %}
+</head>
+<body id="top" class="top {% block body_classes %}{{ page.header.body_classes }}{% endblock %}">
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="{{ base_url == '' ? '/' : base_url }}">
+          <img src="{{ url('theme://images/' ~ theme_config.logo) }}" alt="{{ site.title|e('html') }}" height="88">
+        </a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="main-navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          {% include 'partials/navigation.html.twig' %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  {% block content %}{% endblock %}
+
+  <footer class="footer">
+    <div class="container footer__main">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="footer__logo">
+            <img src="{{ url('theme://images/' ~ theme_config.logo) }}" alt="{{ site.title|e('html') }}" width="170" height="105">
+          </div>
+          <p class="footer__our-focus">{{ theme_config.short_description }}</p>
+        </div>
+
+        <div class="col-md-offset-1 col-md-5">
+          <h3 class="footer__column__header">{{ theme_config.communications.headline }}</h3>
+          <ul class="footer__communications">
+            <li>{{ theme_config.communications.hotline }}</li>
+            <li>{{ theme_config.communications.email }}</li>
+            <li>{{ theme_config.communications.phone }}</li>
+          </ul>
+        </div>
+
+        <div class="col-md-offset-1 col-md-5">
+          <h3 class="footer__column__header">{{ theme_config.locations.headline }}</h3>
+          {% for place in theme_config.locations.items %}
+          <div class="footer__locations__unit">
+            <div class="footer__locations__unit__name">{{ place.name }}</div>
+            <div class="footer__locations__unit__adress">
+              {{ place.address }}
+            </div>
+          </div>
+          {% endfor %}
+
+        </div>
+        <div class="col-md-offset-1 col-md-5">
+          <h3 class="footer__column__header">{{ theme_config.info.headline }}</h3>
+          <ul class="footer__info">
+            {% for item in theme_config.info.items %}
+              <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-24">
+          <div class="pull-right"><a href="#top" class="icon-angle-up footer__scroll-to-top js-scroll-to-top"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copyrights">
+      {{ site.title|e('html') }}. {{ "now"|date("Y") }} {{ theme_config.copyright }}
+    </div>
+  </footer>
+
+
+{% block bottom %}
+    {{ assets.js('bottom') }}
+{% endblock %}
+<script>
+    window.addEventListener('load', function() {
+      // scroll to top
+      document.querySelector('.js-scroll-to-top').addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+      });
+    });
+</script>
+
+</body>

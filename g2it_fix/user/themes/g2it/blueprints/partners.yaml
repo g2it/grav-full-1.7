@@ -1,0 +1,13 @@
+title: Our Partners
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.more_label:
+              type: text
+              label: More Label
+            

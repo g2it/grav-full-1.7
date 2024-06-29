@@ -1,0 +1,6 @@
+{
+    "name": "g2it/stripe",
+    "require": {
+        "stripe/stripe-php": "^7.75"
+    }
+}

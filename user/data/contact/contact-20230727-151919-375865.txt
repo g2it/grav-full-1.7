@@ -1,0 +1,18 @@
+First Name: Grant
+Last Name: Firth
+Phone: 0499457775
+Email: grant@trugrade.com.au
+Office: fremantle
+Enquiry Details: I am getting alot of email from microsoft of the type below. Should I be concerned?
+
+Hi grant@trugrade.com.au,
+We received your request for a single-use code to use with your Microsoft account.
+
+Your single-use code is: 6818588
+
+If you didn't request this code, you can safely ignore this email. Someone else might have typed your email address by mistake.
+
+Thanks,
+The Microsoft account team
+
+

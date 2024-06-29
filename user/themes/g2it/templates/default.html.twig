@@ -1,0 +1,13 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+  <div class="container ptb-95 default">
+  	
+    <div class="row">
+      <div class="col-md-20 col-md-offset-2">
+      	{% include 'partials/breadcrumbs.html.twig' %}
+        {{ page.content }}
+    	</div>
+    </div>
+  </div>
+{% endblock %}

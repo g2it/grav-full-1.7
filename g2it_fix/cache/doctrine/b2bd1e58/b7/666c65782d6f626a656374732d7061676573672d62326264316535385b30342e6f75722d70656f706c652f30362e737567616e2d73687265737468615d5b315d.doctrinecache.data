@@ -1,0 +1,24 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":1827:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:25:"our-people/sugan-shrestha";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:13:{s:5:"title";s:14:"Sugan Shrestha";s:11:"media_order";s:18:"sugan-shrestha.jpg";s:8:"position";s:13:"IT Technician";s:18:"twittercardoptions";s:7:"summary";s:14:"articleenabled";b:0;s:17:"musiceventenabled";b:0;s:11:"orgaenabled";b:0;s:4:"orga";a:1:{s:11:"ratingValue";d:2.5;}s:17:"orgaratingenabled";b:0;s:12:"eventenabled";b:0;s:13:"personenabled";b:0;s:17:"restaurantenabled";b:0;s:10:"restaurant";a:2:{s:19:"acceptsReservations";s:3:"yes";s:10:"priceRange";s:1:"$";}}s:11:"frontmatter";s:354:"title: 'Sugan Shrestha'
+media_order: sugan-shrestha.jpg
+position: 'IT Technician'
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $";s:8:"markdown";s:522:"<p>Sugan has joined our Fremantle G2IT team in 2019.&nbsp;He has earned his experience while working as a manager for a large retail company and running his own IT business.</p>
+<p>Sugan currently holds the following certifications:</p>
+<ul>
+<li>Diploma of IT - Networking</li>
+<li>Advanced Diploma of Civil Construction and Design</li>
+<li>Advanced Diploma of Science and Engineering</li>
+</ul>
+<p><a href="https://www.linkedin.com/in/sugan-shrestha/" target="_blank" rel="noopener">Connect with Sugan on LinkedIn</a></p>";}s:7:"storage";a:6:{s:3:"key";s:25:"our-people/sugan-shrestha";s:11:"storage_key";s:31:"04.our-people/06.sugan-shrestha";s:8:"template";s:6:"member";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:6:"member";i:1633959748;}}s:8:"checksum";s:32:"b1de0ac795e6a9269848a5bac7f819fa";}}}

@@ -1,0 +1,27 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":1909:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:24:"our-people/robert-baines";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:13:{s:5:"title";s:13:"Robert Baines";s:11:"media_order";s:17:"robert baines.jpg";s:8:"position";s:13:"IT Consultant";s:18:"twittercardoptions";s:7:"summary";s:14:"articleenabled";b:0;s:17:"musiceventenabled";b:0;s:11:"orgaenabled";b:0;s:4:"orga";a:1:{s:11:"ratingValue";d:2.5;}s:17:"orgaratingenabled";b:0;s:12:"eventenabled";b:0;s:13:"personenabled";b:0;s:17:"restaurantenabled";b:0;s:10:"restaurant";a:2:{s:19:"acceptsReservations";s:3:"yes";s:10:"priceRange";s:1:"$";}}s:11:"frontmatter";s:354:"title: 'Robert Baines'
+media_order: 'robert baines.jpg'
+position: 'IT Consultant'
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $";s:8:"markdown";s:609:"<p>Robert has joined the Esperance G2IT team after moving to Australia from South Africa. He has earned his experience while working for a large Telco company and his own business.</p>
+<p>===</p>
+<p>Robert holds a number of industry specific certifications which include:</p>
+<ul>
+<li>CompTIA</li>
+<li>Microsoft Certified Professional</li>
+<li>Certificate in IT Project Management</li>
+<li>Certificate in Safety Management</li>
+<li>Fortinet NSE 4 Network Security Professional</li>
+</ul>
+<p><a href="https://www.linkedin.com/in/rjbaines/" target="_blank" rel="noopener">Connect with Robert on LinkedIn</a></p>";}s:7:"storage";a:6:{s:3:"key";s:24:"our-people/robert-baines";s:11:"storage_key";s:30:"04.our-people/04.robert-baines";s:8:"template";s:6:"member";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:6:"member";i:1633959748;}}s:8:"checksum";s:32:"268b248a7f4a1f7ee3f2e06589016a7c";}}}

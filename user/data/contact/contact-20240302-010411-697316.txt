@@ -1,0 +1,16 @@
+First Name: swertvver
+Last Name: swertvver
+Phone: 84646111815
+Email: alina_konovalova_1987@inbox.ru
+Office: esperance
+Enquiry Details: Про Войну - Военная хроника: Видео боевых действия 2024г 
+Про Войну - Хроника боевых действий, информационный портал о военных конфликтах в России и за рубежом, художественные и документальные фильмы о войне. Сводки с горячих точек и видео военкоров с передовой. 2024г. 
+ 
+<li id="menu-item-45844" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45844"><a href="https://pro-voinu.info/vojna-na-ukraine">Война на Украине: Свежее видео боев СВО 2024 года.</a></li> 
+<li id="menu-item-45847" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45847"><a href="https://pro-voinu.info/tretya-mirovaya-vojna">Третья мировая война</a></li> 
+<li id="menu-item-45848" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45848"><a href="https://pro-voinu.info/pervaya-chechenskaya-vojna">Первая Чеченская война</a></li> 
+<li id="menu-item-45845" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45845"><a href="https://pro-voinu.info/vtoraya-chechenskaya-vojna">Вторая Чеченская война</a></li> 
+<li id="menu-item-45849" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45849"><a href="https://pro-voinu.info/siriya">Сирия</a></li> 
+<li id="menu-item-45850" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45850"><a href="https://pro-voinu.info/yuzhnaya-osetiya">Южная Осетия</a></li> 
+<li id="menu-item-46248" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46248"><a href="https://pro-voinu.info/karabah">Карабах</a></li>
+

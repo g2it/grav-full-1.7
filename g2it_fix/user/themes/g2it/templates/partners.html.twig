@@ -1,0 +1,33 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+  <div class="container ptb-95 partners-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-24">
+          {% include 'partials/breadcrumbs.html.twig' %}
+          <h1 class="section-header">{{ page.header.title }}</h1>
+          {% for partner_p in page.collection() %}
+            <div class="row partner">
+              <div class="col-md-6">
+                <div class="img-wrapper">
+                  <img class="img-responsive center-block" src="{{ partner_p.media.images|first.cache.url() }}">
+                </div>
+              </div>
+              <div class="col-md-18 content">
+                <a href="{{ partner_p.url }}" class="name-url">
+                  <h5 class="name">{{ partner_p.title }}</h5>
+                </a>
+                <span class="line"></span>
+                <div class="content-wrapper">
+                  {{ partner_p.summary(150)|striptags('<b><br><i><em><blockquote>') }}
+                </div>
+                <a href="{{ partner_p.url }}" class="more">{{ page.header.more_label }}</a>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,18 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":2292:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:21:"our-partners/ubiquity";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:12:{s:5:"title";s:8:"Ubiquiti";s:11:"media_order";s:26:"ubiquiti-networks-logo.jpg";s:18:"twittercardoptions";s:7:"summary";s:14:"articleenabled";b:0;s:17:"musiceventenabled";b:0;s:11:"orgaenabled";b:0;s:4:"orga";a:1:{s:11:"ratingValue";d:2.5;}s:17:"orgaratingenabled";b:0;s:12:"eventenabled";b:0;s:13:"personenabled";b:0;s:17:"restaurantenabled";b:0;s:10:"restaurant";a:2:{s:19:"acceptsReservations";s:3:"yes";s:10:"priceRange";s:1:"$";}}s:11:"frontmatter";s:328:"title: Ubiquiti
+media_order: ubiquiti-networks-logo.jpg
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $";s:8:"markdown";s:1057:"We develop high-performance networking product platforms. Ubiquiti-engineered technology innovations provide superior performance, clever mechanical design, and ease of use. We evolve wireless and wired technology platforms to deliver highly advanced and easily deployable communications solutions to a global customer base.
+
+Ubiquiti Networks, Inc. currently focuses on 3 main technologies: high-capacity distributed Internet access, unified information technology, and next-gen consumer electronics for home and personal use. The majority of the company’s resources consist of entrepreneurial and de-centralized R&D teams. Ubiquiti does not employ a traditional direct sales force, but instead drives brand awareness largely through the company’s user community where customers can interface directly with R&D, marketing, and support. With over 70 million devices shipped in over 200 countries and territories in the world, Ubiquiti aims to connect everyone to everything, everywhere. Ubiquiti was founded by former Apple engineer Robert Pera in 2005.";}s:7:"storage";a:6:{s:3:"key";s:21:"our-partners/ubiquity";s:11:"storage_key";s:27:"06.our-partners/08.ubiquity";s:8:"template";s:7:"partner";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"partner";i:1633959748;}}s:8:"checksum";s:32:"a74ad3e67fe1cbb77fdd0303364e3e74";}}}

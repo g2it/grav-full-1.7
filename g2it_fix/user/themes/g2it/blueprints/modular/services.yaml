@@ -1,0 +1,15 @@
+title: Services
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.button_label:
+              type: text
+              label: Button Label
+            header.button_url:
+              type: text
+              label: Button URL

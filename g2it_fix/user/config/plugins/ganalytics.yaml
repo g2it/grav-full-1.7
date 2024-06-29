@@ -1,0 +1,13 @@
+enabled: true
+trackingId: UA-126650143-1
+position: head
+objectName: ga
+forceSsl: false
+async: false
+anonymizeIp: false
+cookieConfig: false
+cookieName: _ga
+cookieDomain: g2it.com.au
+cookieExpires: 63072000
+debugStatus: false
+debugTrace: false

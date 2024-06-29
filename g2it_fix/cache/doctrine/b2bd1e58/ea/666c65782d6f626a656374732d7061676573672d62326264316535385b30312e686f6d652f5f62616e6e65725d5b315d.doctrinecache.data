@@ -1,0 +1,27 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":2480:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:12:"home/_banner";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:6:{s:5:"title";s:12:"Here For You";s:11:"media_order";s:369:"here-for-you.png,jumbotron-bg.jpg,Infrastructure v1.1.png,Cloud v1.1.png,Security v1.1.png,Cloud 1.2.png,Cloud Services v2.0.jpg,Cyber Security v2.jpg,Infrastructure v2.jpg,IT Support v2.jpg,mobile - cloud services.jpg,mobile - infrastructure.jpg,mobile - it support.jpg,mobile - security.jpg,G2IT - Website Banners - team.jpg,G2IT - Website Banners - mobile - team.jpg";s:14:"desktop_slides";a:5:{i:0;a:1:{s:5:"image";s:33:"G2IT - Website Banners - team.jpg";}i:1;a:1:{s:5:"image";s:23:"Cloud Services v2.0.jpg";}i:2;a:1:{s:5:"image";s:21:"Infrastructure v2.jpg";}i:3;a:1:{s:5:"image";s:21:"Cyber Security v2.jpg";}i:4;a:1:{s:5:"image";s:17:"IT Support v2.jpg";}}s:13:"mobile_slides";a:5:{i:0;a:1:{s:5:"image";s:42:"G2IT - Website Banners - mobile - team.jpg";}i:1;a:1:{s:5:"image";s:27:"mobile - cloud services.jpg";}i:2;a:1:{s:5:"image";s:27:"mobile - infrastructure.jpg";}i:3;a:1:{s:5:"image";s:21:"mobile - security.jpg";}i:4;a:1:{s:5:"image";s:23:"mobile - it support.jpg";}}s:11:"slide_delay";i:10;s:5:"timer";b:1;}s:11:"frontmatter";s:960:"title: 'Here For You'
+media_order: 'here-for-you.png,jumbotron-bg.jpg,Infrastructure v1.1.png,Cloud v1.1.png,Security v1.1.png,Cloud 1.2.png,Cloud Services v2.0.jpg,Cyber Security v2.jpg,Infrastructure v2.jpg,IT Support v2.jpg,mobile - cloud services.jpg,mobile - infrastructure.jpg,mobile - it support.jpg,mobile - security.jpg,G2IT - Website Banners - team.jpg,G2IT - Website Banners - mobile - team.jpg'
+desktop_slides:
+    -
+        image: 'G2IT - Website Banners - team.jpg'
+    -
+        image: 'Cloud Services v2.0.jpg'
+    -
+        image: 'Infrastructure v2.jpg'
+    -
+        image: 'Cyber Security v2.jpg'
+    -
+        image: 'IT Support v2.jpg'
+mobile_slides:
+    -
+        image: 'G2IT - Website Banners - mobile - team.jpg'
+    -
+        image: 'mobile - cloud services.jpg'
+    -
+        image: 'mobile - infrastructure.jpg'
+    -
+        image: 'mobile - security.jpg'
+    -
+        image: 'mobile - it support.jpg'
+slide_delay: 10
+timer: true";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:12:"home/_banner";s:11:"storage_key";s:15:"01.home/_banner";s:8:"template";s:8:"bannerv2";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"bannerv2";i:1633959748;}}s:8:"checksum";s:32:"3c9506a2d3588dc2fc2a9edd7aa9122d";}}}

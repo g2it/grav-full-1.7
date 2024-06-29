@@ -1,0 +1,16 @@
+state: enabled
+email: info@g2it.com.au
+fullname: Admin
+title: Admin
+hashed_password: $2y$10$bnoLDJNAOW/YEExqhHCkkug..7cdv3m2dXjZoVWyptwBfoaPXdko.
+language: en
+content_editor: default
+twofa_enabled: false
+twofa_secret: UZYLEW56FGNIMJNEMIYMRRKKW7MYXBHN
+avatar: {  }
+access:
+  site:
+    login: true
+  admin:
+    login: true
+    super: true

@@ -1,0 +1,3 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":624:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:5:"tools";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:2:{s:5:"title";s:5:"Tools";s:4:"menu";s:5:"Tools";}s:11:"frontmatter";s:24:"title: Tools
+menu: Tools";s:8:"markdown";s:0:"";}s:7:"storage";a:7:{s:3:"key";s:5:"tools";s:11:"storage_key";s:8:"07.tools";s:8:"template";s:5:"tools";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:5:"tools";i:1633959748;}}s:8:"children";a:4:{s:15:"01.client-login";b:0;s:17:"02.remote-support";b:0;s:23:"03.client-documentation";b:0;s:19:"04.book-appointment";b:0;}s:8:"checksum";s:32:"adec7430dcbdeaf11f48cf381911bfae";}}}

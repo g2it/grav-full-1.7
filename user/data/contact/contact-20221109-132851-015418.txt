@@ -1,0 +1,14 @@
+First Name: Stephen
+Last Name: Gore
+Phone: 0272021345
+Email: stephen.gore@strategicgroup.net.au
+Office: fremantle
+Enquiry Details: Hi, 
+Could you please supply your 3CX settings that would be needed for a firewall. 
+I would like to know preferred DNS settings, hostname that the IP Phones talk back to. I can be contacted on the number listed if required. 
+
+
+cheers
+
+Stephen
+

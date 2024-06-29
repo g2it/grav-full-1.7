@@ -1,0 +1,24 @@
+title: People
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.members:
+              type: list
+              label: Members
+              fields: 
+                .name: 
+                  type: text
+                  label: Name
+                .logo:
+                  type: pagemediaselect
+                  label: Logo
+                  preview_images: true
+                .url:
+                  type: text
+                  label: URL
+

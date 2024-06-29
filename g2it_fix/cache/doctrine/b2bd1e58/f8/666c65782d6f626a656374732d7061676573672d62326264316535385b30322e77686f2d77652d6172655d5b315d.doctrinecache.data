@@ -1,0 +1,22 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":2780:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:10:"who-we-are";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:12:{s:5:"title";s:8:"About us";s:4:"menu";s:8:"About us";s:18:"twittercardoptions";s:7:"summary";s:14:"articleenabled";b:0;s:17:"musiceventenabled";b:0;s:11:"orgaenabled";b:0;s:4:"orga";a:1:{s:11:"ratingValue";d:2.5;}s:17:"orgaratingenabled";b:0;s:12:"eventenabled";b:0;s:13:"personenabled";b:0;s:17:"restaurantenabled";b:0;s:10:"restaurant";a:2:{s:19:"acceptsReservations";s:3:"yes";s:10:"priceRange";s:1:"$";}}s:11:"frontmatter";s:307:"title: 'About us'
+menu: 'About us'
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $";s:8:"markdown";s:1595:"G2IT specialises in providing personalised IT services to businesses and home users in and around Perth and Esperance surrounding suburbs.
+
+We are an innovative and progressive company in a dynamic industry – unfortunately an industry where businesses sometimes come and go, and experienced professionals are hard to find. Our customers have the comfort of knowing that G2IT is in the business for ‘the long haul’, having been in the business for more the 10 years, we know what is expected and how important IT is to our business day to day life cycle.
+
+Our focus is to deliver high quality IT solutions, on time, every time. Our aim is to make your Technology work for you, so that you can focus your energy where it is most needed. G2IT is a partnership between Vladimir and Alexander Guiris. Vladimir holds a Diploma of Network Engineering, a Bachelor of Business Information Systems and is a Microsoft Certified Virtualisation Specialist. He has spent the majority of his working life as a consultant to clients, satisfying all aspects of their IT requirements. His experience includes network engineering, virtualisation, enterprise wireless solutions, system development, design, implementation and all forms of troubleshooting and consulting. The last 2 years we have been re-focusing our business goals and branching out to Esperance, WA.
+
+Our team will help you understand any problems your system might be experiencing, and explain the recommended solution. All solutions are thoroughly tested before our technic leaves your premises to ensure your systems are fully functional.";}s:7:"storage";a:7:{s:3:"key";s:10:"who-we-are";s:11:"storage_key";s:13:"02.who-we-are";s:8:"template";s:5:"about";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:5:"about";i:1633959748;}}s:8:"children";a:1:{s:6:"01.faq";b:0;}s:8:"checksum";s:32:"231d8829ad5db158d6ee7b203f4e328d";}}}

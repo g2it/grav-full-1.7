@@ -1,0 +1,28 @@
+First Name: John-Paul (JP)
+Last Name: Schutz
+Phone: 0412 865 376
+Email: JPM.Schutz@proton.me
+Office: fremantle
+Enquiry Details: A few months ago, my data was compromised with breaches on Optus,  Medibank and now PayPal (Yet to be Advised of the breach). 
+I have taken a few  steps to ensure that my security isn't compromised in the future.
+01. Using VPN 
+02. New email provider
+03. Use of multiple emails
+04. Redesign my password system 
+05. Changed my phone provider and number.
+
+I have been using my phone a 2FA and want to change to a Yubikey. Going through the internet, I came across your site indicating that you represent Yubicon. How much would a yubikey cost to use on my computer, I would require this to use on my computer to access certain sites requesting 2 FA.
+
+I also have a Ledger device for my investments, would I require a 2nd key?
+
+Looking forward to hearing from you
+
+JP Schutz
+Aus: 0412 865 376
+Ind: +62 821 1668 1368
+Email: JPM.Schutz@proton.me
+
+PS: Presently, I am in Indonesia returning later on this month, hence I would be best to communicate by email.
+
+
+

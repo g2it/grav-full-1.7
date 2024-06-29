@@ -1,0 +1,13 @@
+title: Services
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.view_button:
+              type: text
+              label: View button
+            

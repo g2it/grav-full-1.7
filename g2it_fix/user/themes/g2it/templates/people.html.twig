@@ -1,0 +1,49 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block more_js %}
+  {% do assets.addJs('https://cdnjs.cloudflare.com/ajax/libs/Readmore.js/2.2.0/readmore.js', {group:'bottom'}) %}
+  
+  {% set script %}
+    $(document).ready(function(){
+        $('.text').readmore({
+            moreLink: '<a href="" class="more">{{ page.header.view_more }}</a>',
+            lessLink: '',
+            collapsedHeight: 75
+        });
+    });
+  {% endset %}
+  {% do assets.addInlineJs(script, {group: 'bottom'}) %}
+{% endblock %}
+
+{% block content %}
+  <div class="container ptb-95 people-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-24">
+          {% include 'partials/breadcrumbs.html.twig' %}
+          <h1 class="section-header">{{ page.header.title }}</h1>
+          <div class="row">
+          {% for row in page.collection()|batch(2) %}
+            <div class="row">
+              {% for people_p in row %}
+                <div class="col-md-12 people" id="{{ loop.index }}">
+                  <div class="our-people__worker__avatar col-md-10">
+                    <img class="img-responsive" src="{{ people_p.media.images|first.cache.url() }}">
+                  </div>
+                  <div class="col-md-14 description">
+                    <div class="our-people-name">{{ people_p.title }}</div>
+                    <div class="our-people__worker__info__position"><span>{{ people_p.header.position }}</span><span class="line"></span></div>
+                    <div class="our-people__worker__info__description text">
+                      {{ people_p.content }}
+                    </div>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

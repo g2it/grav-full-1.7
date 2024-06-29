@@ -1,0 +1,15 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":1319:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:22:"tools/book-appointment";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:11:{s:5:"title";s:16:"Book Appointment";s:18:"twittercardoptions";s:7:"summary";s:14:"articleenabled";b:0;s:17:"musiceventenabled";b:0;s:11:"orgaenabled";b:0;s:4:"orga";a:1:{s:11:"ratingValue";d:2.5;}s:17:"orgaratingenabled";b:0;s:12:"eventenabled";b:0;s:13:"personenabled";b:0;s:17:"restaurantenabled";b:0;s:10:"restaurant";a:2:{s:19:"acceptsReservations";s:3:"yes";s:10:"priceRange";s:1:"$";}}s:11:"frontmatter";s:298:"title: 'Book Appointment'
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $";s:8:"markdown";s:156:"<iframe src='https://outlook.office365.com/owa/calendar/G2IT1@g2it.com.au/bookings/' width='100%' height='2000px' scrolling='yes' style='border:0'></iframe>";}s:7:"storage";a:6:{s:3:"key";s:22:"tools/book-appointment";s:11:"storage_key";s:28:"07.tools/04.book-appointment";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1633959748;}}s:8:"checksum";s:32:"9280fa783a37cff3612b7652cdd5b218";}}}

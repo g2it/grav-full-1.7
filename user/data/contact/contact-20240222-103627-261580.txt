@@ -1,0 +1,40 @@
+First Name: Elliottclorb
+Last Name: Elliottclorb
+Phone: 81355224135
+Email: chanellelowen14@gmail.com
+Office: esperance
+Enquiry Details: 
+How to troubleshoot a newly built PC that does not show any display?
+
+ 
+I have recently assembled a PC with the following specifications:
+
+ 
+
+ 
+Motherboard: Asus A620M-A
+
+
+GPU: RTX 4070
+
+
+CPU: 7700X
+
+
+RAM: 32 GB DDR5 5200 MHz
+
+
+PSU: 750 W
+
+
+Storage: 1 TB NVMe
+
+ 
+The PC powers on, but there is no signal on the monitor. I have tried removing and reinserting the GPU and RAM, but it did not help. I have also tried updating the BIOS using the flashback feature, and it worked once, but after putting everything back into the case, the problem returned. I have checked all the cables and connections, and they seem to be fine. What could be the cause of this issue, and how can I fix it?
+
+ 
+Thank 
+ you for your assistance.
+ 
+<a href=>https://technsight.com/</a>
+

@@ -1,0 +1,12 @@
+title: Testimonial Item
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.company:
+              type: text
+              label: Company

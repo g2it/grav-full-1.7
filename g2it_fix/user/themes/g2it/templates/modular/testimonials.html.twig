@@ -1,0 +1,88 @@
+<div class="testimonials-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-14">
+        <div class="testimonials-section__header">
+          <h1 class="section-header">{{ page.title }}</h1>
+        </div>
+        <div class="testimonials-section__slider">
+          <div class="testimonials-slider carousel slide" id="testiCarousel" data-ride="carousel" data-interval="7000" data-pause="hover">
+
+            {% set collection = page.evaluate([{'@page.children':'/testimonials'}]) %}
+            {% set ordered_collection = collection.order('default','asc') %}
+            <div class="carousel-inner" role="listbox">
+              {% for testi_p in ordered_collection %}
+              <div class="testimonials-slider__testimonial item {% if loop.first %}active{% endif %}">
+                <div class="testimonials-slider__testimonial__author">
+                  <div class="testimonials-slider__testimonial__author__logo">
+                    <img src="{{ testi_p.media.images|first.cropResize(100,100).url() }}" alt="{{ testi_p.title|e('html') }} " class="img-responsive">
+                  </div>
+                  <div class="testimonials-slider__testimonial__author__info">
+                    <div class="testimonials-slider__testimonial__author__info__name">{{ testi_p.title }}</div>
+                    <div class="testimonials-slider__testimonial__author__info__position">{{ testi_p.header.company }}</div>
+                  </div>
+                </div>
+                <div class="testimonials-slider__testimonial__text">{{ testi_p.content }}</div>
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="testimonials-slider__testimonial__pagination">
+              <ul class="pagination-bullets carousel-indicators">
+              {% for testi_p in ordered_collection %}
+                <li data-target="#testiCarousel" data-slide-to="{{ loop.index-1 }}" {% if loop.first %}class="active"{% endif %}><div class="dot"></div></li>
+              {% endfor %}
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-offset-2 col-md-8">
+        <div class="testimonials-section__contact-us">
+          <h2 class="testimonials-section__contact-us__header">{{ page.header.form_heading }}</h2>
+          <div class="testimonials-section__contact-us__offer">
+            {{ page.header.form_subheading }}
+          </div>
+
+          <div id="form-result"></div>
+          {% include "forms/contact-form.html.twig" with { form: forms('simple-contact') } %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+$(document).ready(function(){
+
+    var form = $('#simple-contact');
+    form.submit(function(e) {
+        // prevent form submission
+        e.preventDefault();
+
+        // submit the form via Ajax
+        $.ajax({
+            url: form.attr('action'),
+            type: form.attr('method'),
+            dataType: 'html',
+            data: form.serialize(),
+            success: function(result) {
+                form.fadeOut();
+                // Inject the result in the HTML
+                $('#form-result').html(result).fadeIn();
+            }
+        });
+    });
+
+    // swipe for mobile
+    $("#testiCarousel").swiperight(function() {
+      $(this).carousel('prev');
+    });
+    $("#testiCarousel").swipeleft(function() {
+      $(this).carousel('next');
+    });
+});
+</script>

@@ -1,0 +1,48 @@
+title: Banner
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.logo:
+              type: filepicker
+              label: Logo
+              preview_images: true
+              accept:
+                - .png
+                - .jpg
+            header.sub_header:
+              type: text
+              label: Subheader
+            header.slides:
+              type: list
+              label: Slides
+              fields:
+                .image:
+                  type: filepicker
+                  label: Background Image
+                  preview_images: true
+                  accept:
+                    - .png
+                    - .jpg
+            header.slide_delay:
+              type: number
+              label: Slide Delay (Seconds)
+              help: Seconds between 2 slides
+              default: 5
+              validate:
+                type: number
+                min: 1
+            header.timer:
+                type: toggle
+                label: Show Timer Bar
+                highlight: 1
+                help: Show timer bar at the bottom of the slide.
+                options:
+                    1: Show
+                    0: Hide
+                validate:
+                    type: bool

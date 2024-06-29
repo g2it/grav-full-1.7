@@ -1,0 +1,25 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":1761:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:22:"our-people/lana-guiris";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:16:{s:5:"title";s:11:"Lana Guiris";s:11:"media_order";s:19:"Lana Guiris - s.jpg";s:8:"position";s:9:"Accounts ";s:9:"published";b:1;s:18:"twittercardoptions";s:7:"summary";s:14:"articleenabled";b:0;s:17:"musiceventenabled";b:0;s:11:"orgaenabled";b:0;s:4:"orga";a:1:{s:11:"ratingValue";d:2.5;}s:17:"orgaratingenabled";b:0;s:12:"eventenabled";b:0;s:13:"personenabled";b:0;s:17:"restaurantenabled";b:0;s:10:"restaurant";a:2:{s:19:"acceptsReservations";s:3:"yes";s:10:"priceRange";s:1:"$";}s:13:"twitterenable";b:1;s:14:"facebookenable";b:1;}s:11:"frontmatter";s:407:"title: 'Lana Guiris'
+media_order: 'Lana Guiris - s.jpg'
+position: 'Accounts '
+published: true
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $
+twitterenable: true
+facebookenable: true";s:8:"markdown";s:348:"<p>Lana has joined the team at G2IT Fremantle in 2018. She has over 10 years experience in accounts and office management. Lana is responsible for keeping day-to-day operations in Fremantle and Esperance running smoothly.&nbsp;</p>
+<p>Lana's qualifications are:</p>
+<ul>
+<li>Cert IV in Accounting and Bookkeeping</li>
+<li>Bachelor in Law</li>
+</ul>";}s:7:"storage";a:6:{s:3:"key";s:22:"our-people/lana-guiris";s:11:"storage_key";s:28:"04.our-people/08.lana-guiris";s:8:"template";s:6:"member";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:6:"member";i:1633959748;}}s:8:"checksum";s:32:"3b9dd9e9cfe1b98b45feaa3f396997c9";}}}

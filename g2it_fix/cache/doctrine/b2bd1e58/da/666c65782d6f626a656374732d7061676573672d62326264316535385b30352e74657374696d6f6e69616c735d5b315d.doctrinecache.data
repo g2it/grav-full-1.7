@@ -1,0 +1,8 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":990:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:12:"testimonials";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:12:"Testimonials";s:4:"menu";s:12:"Testimonials";s:7:"content";a:2:{s:5:"items";s:14:"@self.children";s:5:"order";a:2:{s:2:"by";s:7:"default";s:3:"dir";s:4:"desc";}}}s:11:"frontmatter";s:124:"title: Testimonials
+menu: Testimonials
+content:
+    items: '@self.children'
+    order:
+        by: default
+        dir: desc";s:8:"markdown";s:0:"";}s:7:"storage";a:7:{s:3:"key";s:12:"testimonials";s:11:"storage_key";s:15:"05.testimonials";s:8:"template";s:12:"testimonials";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:12:"testimonials";i:1633959748;}}s:8:"children";a:8:{s:18:"01.gihan-kohobange";b:0;s:15:"02.jenny-turner";b:0;s:17:"03.olwyn-williams";b:0;s:13:"04.di-english";b:0;s:14:"05.corina-sime";b:0;s:13:"06.kylie-ryan";b:0;s:12:"07.mark-shaw";b:0;s:17:"08.jonathan-smith";b:0;}s:8:"checksum";s:32:"ea045ebc8892862684a35f27eacb8e3d";}}}

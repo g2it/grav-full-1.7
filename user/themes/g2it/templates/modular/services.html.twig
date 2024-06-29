@@ -1,0 +1,37 @@
+<div class="our-services-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-24">
+        <h1 class="section-header">{{ page.header.title }}</h1>
+      </div>
+    </div>
+    <div class="row our-services-section__sevices-block">
+      {% set collection = page.evaluate([{'@page.children':'/our-services'}]).shuffle() %}
+      
+      <ul class="owl-carousel">
+        {% for item in collection %}
+          {% if item.header.featured is same as (true) or item.header.featured == '1' %}
+          <li class="item">
+            <div class="service">
+              {% if item.header.icon is not empty %}
+              <img src="{{ item.media.images[item.header.icon].cache.url() }}" alt="{{ item.title|e('html') }}">
+              {% endif %}
+              <h2>{{ item.title }}</h2>
+              <div class="our-services-section__sevice-description">
+                {{ item.summary(400)|striptags('<b><strong><br><i><em>') }}
+              </div>
+              <a href="{{ item.url }}" class="more">Read more</a>
+            </div>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-24 our-services-section__actions">
+        <a href="{{ page.header.button_url }}" class="btn btn-primary">{{ page.header.button_label }}</a>
+      </div>
+    </div>
+  </div>
+</div>

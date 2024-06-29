@@ -1,0 +1,15 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":1028:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:13:"home/counter_";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:2:{s:5:"title";s:14:"Counter Module";s:13:"counter_items";a:3:{i:0;a:3:{s:5:"image";s:11:"devices.png";s:6:"number";i:114;s:4:"text";s:8:"Projects";}i:1;a:3:{s:5:"image";s:10:"coffee.png";s:6:"number";i:1563;s:4:"text";s:18:"Incident Free Days";}i:2;a:3:{s:5:"image";s:12:"database.png";s:6:"number";i:1103;s:4:"text";s:15:"Managed Devices";}}}s:11:"frontmatter";s:246:"title: Counter Module 
+counter_items: 
+  - 
+    image: devices.png
+    number: 114
+    text: Projects
+  - 
+    image: coffee.png
+    number: 1563
+    text: Incident Free Days
+  - 
+    image: database.png
+    number: 1103
+    text: Managed Devices";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:13:"home/counter_";s:11:"storage_key";s:16:"01.home/counter_";s:8:"template";s:7:"counter";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"counter";i:1633959748;}}s:8:"checksum";s:32:"08c3afe68f2b1592bbcf42c2d31725c5";}}}

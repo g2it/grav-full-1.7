@@ -1,0 +1,30 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+  <div class="container ptb-95 default faq">
+    <div class="row">
+      <div class="col-md-20 col-md-offset-2">
+      	{% include 'partials/breadcrumbs.html.twig' %}
+        <h3 class="heading"><strong>{{ page.header.heading }}</strong></h3>
+        <div class="panel-group" id="accordion">
+        	{% for item in page.header.faq %}
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <p class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ loop.index }}">
+                  {{ item.question }}
+                </a>
+              </p>
+            </div>
+            <div id="collapse{{ loop.index }}" class="panel-collapse collapse {% if loop.first %}in{% endif %}">
+              <div class="panel-body">
+                {{ item.answer|markdown }}
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+    	</div>
+    </div>
+  </div>
+{% endblock %}

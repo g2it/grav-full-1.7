@@ -1,0 +1,11 @@
+state: enabled
+email: please@change.me
+fullname: Admin
+title: administrator
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$Z1O.GZUQ9q1p9w0rcwKAceIrxgHdrqjDYdOD66Dbh7b6.t0R0te1C

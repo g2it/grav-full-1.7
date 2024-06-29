@@ -1,0 +1,12 @@
+First Name: Jared
+Last Name: Kwame
+Phone: 3076770969
+Email: servertech@atlanticserverconnection.com
+Office: esperance
+Enquiry Details: We are in search of VM, Dedicated or Bare Metal Servers. 
+Basic, minimum requirements: 16 GB RAM, 240 SSD, Quad-Core. 
+AlmaLinux (CentOS 7 if you still offer it) and full a /24. 
+This will be used for direct mail marketing. 
+Specs do not need to be matched exactly, let me know what you have available. 
+
+

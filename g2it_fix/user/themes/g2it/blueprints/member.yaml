@@ -1,0 +1,12 @@
+title: Member
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.position:
+              type: text
+              label: Position

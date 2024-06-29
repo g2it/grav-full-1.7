@@ -1,0 +1,22 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":2245:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:16:"our-partners/hpe";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:12:{s:5:"title";s:3:"HPE";s:11:"media_order";s:46:"1200px-Hewlett_Packard_Enterprise_logo.svg.png";s:18:"twittercardoptions";s:7:"summary";s:14:"articleenabled";b:0;s:17:"musiceventenabled";b:0;s:11:"orgaenabled";b:0;s:4:"orga";a:1:{s:11:"ratingValue";d:2.5;}s:17:"orgaratingenabled";b:0;s:12:"eventenabled";b:0;s:13:"personenabled";b:0;s:17:"restaurantenabled";b:0;s:10:"restaurant";a:2:{s:19:"acceptsReservations";s:3:"yes";s:10:"priceRange";s:1:"$";}}s:11:"frontmatter";s:343:"title: HPE
+media_order: 1200px-Hewlett_Packard_Enterprise_logo.svg.png
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $";s:8:"markdown";s:996:"We make IT environments more efficient, productive and secure, enabling fast, flexible responses to a rapidly changing competitive landscape. We enable organisations to act quickly on ideas by delivering infrastructure that can be easily composed and recomposed to meet shifting demands so they can lead in today’s marketplace of disruptive innovation.
+
+The advanced research from Hewlett Packard Labs changes the world. We’re a powerful innovation engine for HPE, our customers and our industry, delivering breakthrough technologies and pioneering revolutionary research. We address everything from IT trends to complex consumer and social challenges. That’s because our ideas and technology fuel the next generation of Hewlett Packard Enterprise products – and the next generation of technologists, teachers, physicians and artists.
+
+Visit Hewlett Packard Labs to learn how HPE researchers are transforming the technology industry and pioneering the future of computing.
+
+www.hpe.com.au";}s:7:"storage";a:6:{s:3:"key";s:16:"our-partners/hpe";s:11:"storage_key";s:22:"06.our-partners/04.hpe";s:8:"template";s:7:"partner";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"partner";i:1633959748;}}s:8:"checksum";s:32:"b05b987130992263d18636b0569d7bf3";}}}

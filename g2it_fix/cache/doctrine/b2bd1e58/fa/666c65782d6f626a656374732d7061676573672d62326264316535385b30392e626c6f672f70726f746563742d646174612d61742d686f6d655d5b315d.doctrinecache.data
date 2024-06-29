@@ -1,0 +1,27 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":4583:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:25:"blog/protect-data-at-home";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:15:{s:5:"title";s:41:"Protect your data while working from home";s:11:"media_order";s:48:"6. Protect your data while working from home.jpg";s:9:"published";b:1;s:4:"date";s:16:"05-08-2020 06:10";s:7:"visible";b:1;s:18:"twittercardoptions";s:7:"summary";s:14:"articleenabled";b:0;s:17:"musiceventenabled";b:0;s:11:"orgaenabled";b:0;s:4:"orga";a:1:{s:11:"ratingValue";d:2.5;}s:17:"orgaratingenabled";b:0;s:12:"eventenabled";b:0;s:13:"personenabled";b:0;s:17:"restaurantenabled";b:0;s:10:"restaurant";a:2:{s:19:"acceptsReservations";s:3:"yes";s:10:"priceRange";s:1:"$";}}s:11:"frontmatter";s:442:"title: 'Protect your data while working from home'
+media_order: '6. Protect your data while working from home.jpg'
+published: true
+date: '05-08-2020 06:10'
+visible: true
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $";s:8:"markdown";s:3102:"<p><strong><img style="float: right;" src="/blog/protect-data-at-home/6.%20Protect%20your%20data%20while%20working%20from%20home.jpg" alt="" width="399" height="266" />Protect your data while working from home</strong></p>
+<p>With the Coronavirus spreading across the world and forcing many people into social isolation and lockdown, many of us are now working from home. This is uncharted territory for a lot of people, who are used to offices with powerful internet services and workstations regulated by stringent IT security.<br /><br />At home, many people have basic Internet connections with standard security measures like password protection. But they could be vulnerable to cyber-attack as criminals seek to find and exploit weak points in workplaces that have suddenly switched from well-protected centralised networks to distributed ones.&nbsp;<br /><br />In these uncertain times, it&rsquo;s vital that companies and workers alike beef up their cybersecurity so businesses can continue to function unimpeded.<br /><br /><strong>Review your security measures</strong><br /><br />Whether you have a company seeking to send workers home or someone working remotely, it&rsquo;s a wise move to review the security measures you already have in place and ensure they are all working.</p>
+<ul>
+<li>Is your desktop computer or laptop equipped with the latest internet security measures?</li>
+<li>Are you able to use encryption services?</li>
+<li>Is your home internet connection secure?</li>
+</ul>
+<p>Make sure you thoroughly review the protections you have in place and make sure they are up to the very latest standards.<br /><br /><strong>Develop strong IT protection measures</strong><br /><br />It&rsquo;s a wise move for any companies sending workers to log-on at home that they develop customised security plans for this situation.<br /><br />Developing extra security measures like using a Virtual Protected Network (VPN) can add extra layers of protection that will allow workers to log on from outside sources that can be trusted.<br /><br />If you are working from home, it&rsquo;s vital to follow your company&rsquo;s IT instructions to the letter so your computer doesn&rsquo;t become a weak point.<br /><br /><strong>Get expert help from G2IT<br /></strong><br />At G2IT we specialise in creating personalised IT services for businesses in and around Perth and Esperance, and are readily available to help home users as well.<br /><br />We can help your company and its workers ensure that when they work from home they're able to do so securely, allowing your business to continue without interruption from malicious cyber-attacks or data theft.</p>
+<p>If you or your organisation require any assistance, or simply have any questions regarding securing data, feel free to <a href="https://www.g2it.com.au/contact-us">reach out to us</a>&nbsp;anytime or connect on&nbsp;<a href="https://www.facebook.com/G2ITAustralia/" target="_blank" rel="noopener">Facebook</a>&nbsp;or&nbsp;<a href="https://www.linkedin.com/company/14527738/" target="_blank" rel="noopener">LinkedIn</a>.&nbsp;</p>";}s:7:"storage";a:6:{s:3:"key";s:25:"blog/protect-data-at-home";s:11:"storage_key";s:28:"09.blog/protect-data-at-home";s:8:"template";s:4:"item";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:4:"item";i:1633959748;}}s:8:"checksum";s:32:"7dcabc870063cb671c40ebd8f953f3dc";}}}

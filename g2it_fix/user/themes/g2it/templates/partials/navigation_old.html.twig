@@ -1,0 +1,23 @@
+{% macro nav_loop(page) %}
+    {% for p in page.children.visible %}
+        {% set active_page = (p.active or p.activeChild) ? 'active' : '' %}
+        {% if p.children.visible.count > 0 and p.header.dropdown_menu is same as (true) %}
+            <li class="{{ active_page }}">
+                <a href="{{ p.url }}" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-haspopup="true" aria-expanded="true">
+                    {{ p.menu }}
+                </a>
+                <ul class="dropdown-menu">
+                    {{ _self.nav_loop(p) }}
+                </ul>
+            </li>
+        {% else %}
+            <li class="{{ active_page }}">
+                <a href="{{ p.url }}">
+                    {{ p.menu }}
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+
+{{ _self.nav_loop(pages) }}

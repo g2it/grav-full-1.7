@@ -1,0 +1,26 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+  <div class="container ptb-95 blog-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-25">
+          {% include 'partials/breadcrumbs.html.twig' %}
+          <h1 class="section-header">{{ page.header.title }}</h1>
+          <p class="meta">
+            {% for tag in page.taxonomy.tag %}
+              <a href="{{ base_url }}/blog/tag{{ config.system.param_sep }}{{ tag }}" rel="tag">{{ tag }}{% if not loop.last %}, {% endif %}</a>
+            {% endfor %}
+            {% if page.taxonomy.tag|length > 0 %} - {% endif %}<strong>{{ page.header.date|date(config.system.pages.dateformat.short) }}</strong>
+          </p>
+
+          <div class="content">
+            {{ page.content }}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+

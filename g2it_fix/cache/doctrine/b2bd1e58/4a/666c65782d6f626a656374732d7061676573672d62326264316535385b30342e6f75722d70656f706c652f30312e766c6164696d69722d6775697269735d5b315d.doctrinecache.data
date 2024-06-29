@@ -1,0 +1,30 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":2123:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:26:"our-people/vladimir-guiris";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:13:{s:5:"title";s:15:"Vladimir Guiris";s:11:"media_order";s:19:"vladimir-guiris.jpg";s:8:"position";s:17:"Managing Director";s:18:"twittercardoptions";s:7:"summary";s:14:"articleenabled";b:0;s:17:"musiceventenabled";b:0;s:11:"orgaenabled";b:0;s:4:"orga";a:1:{s:11:"ratingValue";d:2.5;}s:17:"orgaratingenabled";b:0;s:12:"eventenabled";b:0;s:13:"personenabled";b:0;s:17:"restaurantenabled";b:0;s:10:"restaurant";a:2:{s:19:"acceptsReservations";s:3:"yes";s:10:"priceRange";s:1:"$";}}s:11:"frontmatter";s:360:"title: 'Vladimir Guiris'
+media_order: vladimir-guiris.jpg
+position: 'Managing Director'
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $";s:8:"markdown";s:803:"<p>Vladimir is the G2IT Managing Director. He has been honing his considerable IT and Management skills while working for the company for over a decade.</p>
+<p>In that time, he has also continued to expand his qualifications, which include:</p>
+<ul>
+<li>Bachelor of Business Information Systems</li>
+<li>Diploma in Network Engineering</li>
+<li>Certificate IV in Network Administration</li>
+<li>Certificate III in Software Applications</li>
+<li>Microsoft Certified Virtualisation Specialist</li>
+<li>Fortinet Certified Network Security Administrator</li>
+<li>3CX VoIP Certified Specialist</li>
+<li>Veeam Certified Specialist</li>
+<li>Nutanix Certified Specialist</li>
+</ul>
+<p><a href="https://www.linkedin.com/in/vladimir-guiris/" target="_blank" rel="noopener">Connect with Vladimir on LinkedIn</a></p>";}s:7:"storage";a:6:{s:3:"key";s:26:"our-people/vladimir-guiris";s:11:"storage_key";s:32:"04.our-people/01.vladimir-guiris";s:8:"template";s:6:"member";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:6:"member";i:1633959748;}}s:8:"checksum";s:32:"1ffa7179d22099aba5d017e3ee24d3b4";}}}

@@ -1,0 +1,47 @@
+title: Contact Us
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        contact_form:
+          type: tab
+          title: Contact Form
+          fields:
+            header.form_subheading:
+              type: textarea
+              label: Form Subheading
+        g_map:
+          type: tab
+          title: Google Map
+          fields:
+            header.api_key: 
+              type: text
+              label: API Key
+            header.locations:
+              type: list
+              label: Locations
+              fields: 
+                .title: 
+                  type: text
+                  label: Title
+                .address: 
+                  type: text
+                  label: Address
+                .lat: 
+                  type: text
+                  label: Latitude
+                .long:
+                  type: text
+                  label: Longitude
+            header.map_center: 
+              type: section
+              title: Center of Map
+              fields: 
+                header.map_center.lat: 
+                  type: text
+                  label: Latitude
+                header.map_center.long:
+                  type: text
+                  label: Longitude

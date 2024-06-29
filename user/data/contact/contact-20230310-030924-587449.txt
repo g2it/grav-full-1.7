@@ -1,0 +1,12 @@
+First Name: Jared
+Last Name: Kwame
+Phone: 13076770969
+Email: servertech@atlanticserverconnection.com
+Office: esperance
+Enquiry Details: I am looking for a server. Dedicated or bare metal. VPS if not Open VZ.
+Quad-core, 16gb RAM min, 240 SSD or 512 gb HDD – or something similar. 
+Linux CentOS 7, AlmaLinux with a full, public /24.
+We are a direct mail marketing company, the server & range will be used for that. 
+While we do have several providers now, we are always looking to add more.  
+
+

@@ -1,0 +1,17 @@
+title: Testimonials
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        contact_form:
+          type: tab
+          title: Contact Form
+          fields:
+            header.form_heading:
+              type: text
+              label: Form Heading
+            header.form_subheading:
+              type: textarea
+              label: Form Subheading

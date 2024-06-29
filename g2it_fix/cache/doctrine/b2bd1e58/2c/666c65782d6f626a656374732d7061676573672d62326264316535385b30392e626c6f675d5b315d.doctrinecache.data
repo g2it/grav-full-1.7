@@ -1,0 +1,23 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":2101:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:4:"blog";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:13:{s:5:"title";s:4:"Blog";s:9:"published";b:1;s:18:"twittercardoptions";s:7:"summary";s:14:"articleenabled";b:0;s:17:"musiceventenabled";b:0;s:11:"orgaenabled";b:0;s:4:"orga";a:1:{s:11:"ratingValue";d:2.5;}s:17:"orgaratingenabled";b:0;s:12:"eventenabled";b:0;s:13:"personenabled";b:0;s:17:"restaurantenabled";b:0;s:10:"restaurant";a:2:{s:19:"acceptsReservations";s:3:"yes";s:10:"priceRange";s:1:"$";}s:7:"content";a:4:{s:5:"items";s:14:"@self.children";s:5:"order";a:2:{s:2:"by";s:4:"date";s:3:"dir";s:4:"desc";}s:5:"limit";i:10;s:10:"pagination";b:1;}}s:11:"frontmatter";s:418:"title: Blog
+published: true
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $
+content:
+    items: '@self.children'
+    order:
+        by: date
+        dir: desc
+    limit: 10
+    pagination: true";s:8:"markdown";s:0:"";}s:7:"storage";a:7:{s:3:"key";s:4:"blog";s:11:"storage_key";s:7:"09.blog";s:8:"template";s:4:"blog";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:4:"blog";i:1633959748;}}s:8:"children";a:20:{s:38:"3-ways-to-protect-business-data-online";b:0;s:28:"business internet connection";b:0;s:20:"employee-offboarding";b:0;s:17:"firewalls-and-you";b:0;s:28:"general-data-protection-tips";b:0;s:21:"how-to-detect-a-virus";b:0;s:46:"how-to-successfully-shift-to-working-from-home";b:0;s:17:"internet-failover";b:0;s:20:"introduction-to-DDoS";b:0;s:13:"it-governance";b:0;s:21:"know-your-data-rights";b:0;s:22:"myths-about-ransomware";b:0;s:32:"myths-surrounding-cyber-security";b:0;s:32:"protect-business-from-ransomware";b:0;s:20:"protect-data-at-home";b:0;s:10:"ransomware";b:0;s:20:"securing-user-access";b:0;s:31:"starlink-western-australia-2021";b:0;s:16:"what-is-phishing";b:0;s:13:"yubikey-perth";b:0;}s:8:"checksum";s:32:"958501fb960ebf21e0abe9c64645763c";}}}

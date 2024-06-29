@@ -1,0 +1,5 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":605:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:12:"home/_people";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:10:"Our people";s:10:"button_url";s:11:"/our-people";s:12:"button_label";s:8:"View all";}s:11:"frontmatter";s:67:"title: Our people
+
+button_url: '/our-people'
+button_label: View all";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:12:"home/_people";s:11:"storage_key";s:15:"01.home/_people";s:8:"template";s:6:"people";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:6:"people";i:1633959748;}}s:8:"checksum";s:32:"f870a6773d73680fe1846db7cc679ff1";}}}

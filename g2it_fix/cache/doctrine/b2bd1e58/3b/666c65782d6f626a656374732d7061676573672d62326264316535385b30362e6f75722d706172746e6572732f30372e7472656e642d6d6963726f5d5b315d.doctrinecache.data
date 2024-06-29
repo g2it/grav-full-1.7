@@ -1,0 +1,20 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":2349:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:24:"our-partners/trend-micro";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:12:{s:5:"title";s:11:"Trend Micro";s:11:"media_order";s:20:"trend-micro-logo.png";s:18:"twittercardoptions";s:7:"summary";s:14:"articleenabled";b:0;s:17:"musiceventenabled";b:0;s:11:"orgaenabled";b:0;s:4:"orga";a:1:{s:11:"ratingValue";d:2.5;}s:17:"orgaratingenabled";b:0;s:12:"eventenabled";b:0;s:13:"personenabled";b:0;s:17:"restaurantenabled";b:0;s:10:"restaurant";a:2:{s:19:"acceptsReservations";s:3:"yes";s:10:"priceRange";s:1:"$";}}s:11:"frontmatter";s:327:"title: 'Trend Micro'
+media_order: trend-micro-logo.png
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $";s:8:"markdown";s:1108:"In 1988, Trend Micro was co-founded by Steve Chang, Jenny Chang, and Eva Chen to develop antivirus software—but it didn’t stop there. Over the last three decades, we’ve become a market leader in hybrid cloud security, network defence, small business security, and endpoint security.
+
+IT infrastructure continues to change, user behavior becomes riskier, and threats evolve. We continuously innovate to stay one step ahead of the bad guys. Our founders have set the tone, the culture, and our road to innovation – building a strong team of people who work together to help make your connected world safer to exchange digital information.
+
+We have been named a leader in endpoint security, cloud security, and server security, and are highly recommended for Breach Detection and Intrusion Prevention Systems. We also have the most advanced threat intelligence network in the world – our Trend Micro™ Smart Protection Network™, which is continually enhanced by big data analytics and machine learning, and is bolstered by hundreds of Trend Micro security experts and the Zero Day Initiative (ZDI).";}s:7:"storage";a:6:{s:3:"key";s:24:"our-partners/trend-micro";s:11:"storage_key";s:30:"06.our-partners/07.trend-micro";s:8:"template";s:7:"partner";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"partner";i:1633959748;}}s:8:"checksum";s:32:"623836e761dbb27c4f308d1f956e313b";}}}

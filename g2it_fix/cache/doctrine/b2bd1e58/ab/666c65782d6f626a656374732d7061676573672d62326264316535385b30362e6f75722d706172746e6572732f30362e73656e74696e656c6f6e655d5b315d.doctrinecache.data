@@ -1,0 +1,18 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":2009:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:24:"our-partners/sentinelone";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:12:{s:5:"title";s:11:"SentinelOne";s:11:"media_order";s:15:"SentinelOne.png";s:18:"twittercardoptions";s:7:"summary";s:14:"articleenabled";b:0;s:17:"musiceventenabled";b:0;s:11:"orgaenabled";b:0;s:4:"orga";a:1:{s:11:"ratingValue";d:2.5;}s:17:"orgaratingenabled";b:0;s:12:"eventenabled";b:0;s:13:"personenabled";b:0;s:17:"restaurantenabled";b:0;s:10:"restaurant";a:2:{s:19:"acceptsReservations";s:3:"yes";s:10:"priceRange";s:1:"$";}}s:11:"frontmatter";s:320:"title: SentinelOne
+media_order: SentinelOne.png
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $";s:8:"markdown";s:781:"A group of defense and intelligence experts saw savvy attackers compromising endpoints seemingly at will. Traditional approaches failed to provide sufficient protection. They founded SentinelOne to develop a dramatic new approach to endpoint protection. It’s one that applies AI and machine learning to thwart known and unknown threats.
+
+Our team understands how much endpoints matter. When attackers come after our privacy, intellectual property, infrastructure, and collaborative modes of working, they assault more than just data. We’re under attack, and so are our values. That’s why we’re dedicated to keeping our breakthrough platform ahead of threats from every vector. Gartner, NSS Labs, and industry leading organizations recognize that our approach sets us apart.";}s:7:"storage";a:6:{s:3:"key";s:24:"our-partners/sentinelone";s:11:"storage_key";s:30:"06.our-partners/06.sentinelone";s:8:"template";s:7:"partner";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"partner";i:1633959748;}}s:8:"checksum";s:32:"3f08d5e5d5fe2ac17dbf54418c2d0c36";}}}

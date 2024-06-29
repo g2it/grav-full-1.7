@@ -1,0 +1,9 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":1152:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:12:"our-partners";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:4:{s:5:"title";s:12:"Our partners";s:10:"more_label";s:9:"more info";s:4:"menu";s:12:"Our partners";s:7:"content";a:2:{s:5:"items";s:14:"@self.children";s:5:"order";a:2:{s:2:"by";s:7:"default";s:3:"dir";s:4:"desc";}}}s:11:"frontmatter";s:152:"title: 'Our partners'
+more_label: 'more info'
+menu: 'Our partners'
+content:
+    items: '@self.children'
+    order:
+        by: default
+        dir: desc";s:8:"markdown";s:0:"";}s:7:"storage";a:7:{s:3:"key";s:12:"our-partners";s:11:"storage_key";s:15:"06.our-partners";s:8:"template";s:8:"partners";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"partners";i:1633959748;}}s:8:"children";a:14:{s:6:"01.ibm";b:0;s:11:"02.fortinet";b:0;s:9:"03.lenovo";b:0;s:6:"04.hpe";b:0;s:8:"05.cisco";b:0;s:14:"06.sentinelone";b:0;s:14:"07.trend-micro";b:0;s:11:"08.ubiquity";b:0;s:12:"09.microsoft";b:0;s:8:"10.veeam";b:0;s:24:"11.nutanix-support-perth";b:0;s:10:"12.kyocera";b:0;s:20:"13.3cx-support-perth";b:0;s:9:"14.yubico";b:0;}s:8:"checksum";s:32:"26b8c40861afe305a24044766a519834";}}}

@@ -1,0 +1,33 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+  <div class="container ptb-95 testimonials-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-24">
+          {% include 'partials/breadcrumbs.html.twig' %}
+          <h1 class="section-header">{{ page.header.title }}</h1>
+          {% for testi_p in page.collection() %}
+            <div class="testi-item">
+              <div class="row info">
+                <div class="col-md-3">
+                  <img class="img-responsive center-block" src="{{ testi_p.media.images|first.cropResize(95,95).cache.url() }}">
+                </div>
+                <div class="col-md-21">
+                  <h5 class="name">{{ testi_p.title }}</h5>
+                  <p class="company"> {{ testi_p.header.company }}</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-24">
+                  {{ testi_p.content }}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+

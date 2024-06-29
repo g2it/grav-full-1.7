@@ -1,0 +1,9 @@
+First Name: Howard
+Last Name: Graves
+Phone: 9494243971
+Email: sales@samedayhosting.com
+Office: esperance
+Enquiry Details: We are looking for a dedicated server. One drive, 500GB, 16GB RAM with a full /24.
+It will be used for marketing, including clean and compliant mailing.
+When can we get up and running with you?
+

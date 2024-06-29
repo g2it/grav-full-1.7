@@ -1,0 +1,13 @@
+title: Our People
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.view_more:
+              type: text
+              label: View more
+            

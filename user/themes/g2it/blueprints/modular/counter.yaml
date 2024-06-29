@@ -1,0 +1,26 @@
+title: Counter
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        counter:
+          type: tab
+          title: Counter
+          fields:
+            header.counter_items:
+              type: list
+              style: vertical
+              label: Counter Items
+              fields:
+                .image:
+                  type: pagemediaselect
+                  preview_images: true
+                  label: Choose an image
+                .number: 
+                  type: text
+                  label: Number
+                .text: 
+                  type: text
+                  label: Text

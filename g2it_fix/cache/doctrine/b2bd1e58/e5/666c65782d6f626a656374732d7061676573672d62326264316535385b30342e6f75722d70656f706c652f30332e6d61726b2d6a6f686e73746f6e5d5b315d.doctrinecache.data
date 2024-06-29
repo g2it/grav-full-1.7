@@ -1,0 +1,25 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":2024:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:24:"our-people/mark-johnston";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:13:{s:5:"title";s:13:"Mark Johnston";s:11:"media_order";s:17:"mark johnston.jpg";s:8:"position";s:45:"Technical Services Manager - Esperance Branch";s:18:"twittercardoptions";s:7:"summary";s:14:"articleenabled";b:0;s:17:"musiceventenabled";b:0;s:11:"orgaenabled";b:0;s:4:"orga";a:1:{s:11:"ratingValue";d:2.5;}s:17:"orgaratingenabled";b:0;s:12:"eventenabled";b:0;s:13:"personenabled";b:0;s:17:"restaurantenabled";b:0;s:10:"restaurant";a:2:{s:19:"acceptsReservations";s:3:"yes";s:10:"priceRange";s:1:"$";}}s:11:"frontmatter";s:386:"title: 'Mark Johnston'
+media_order: 'mark johnston.jpg'
+position: 'Technical Services Manager - Esperance Branch'
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $";s:8:"markdown";s:660:"<p>Mark is the Technical Services manager for the Esperance branch of G2IT. His role has been extremely important in establishing and growing of our regional business. Mark has vast experience in managing the business and technical staff, running infrastructure projects and cloud services implementation.</p>
+<p>Mark holds several certifications which include:</p>
+<ul>
+<li>Fortinet Certified Network Security Administrator</li>
+<li>Cisco Certified Network Engineer</li>
+<li>Apple Certified Mac technician</li>
+</ul>
+<p><a href="https://www.linkedin.com/in/the-mark-johnston/" target="_blank" rel="noopener">Connect with Mark on LinkedIn</a></p>
+<p>&nbsp;</p>";}s:7:"storage";a:6:{s:3:"key";s:24:"our-people/mark-johnston";s:11:"storage_key";s:30:"04.our-people/03.mark-johnston";s:8:"template";s:6:"member";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:6:"member";i:1633959748;}}s:8:"checksum";s:32:"e4742cdd4807b9a56e775244b2741980";}}}

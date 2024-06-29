@@ -1,0 +1,50 @@
+{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+
+<div class="main-jumbotron">
+  <div class="container">
+    <div class="jumbotron__gutter"></div>
+  </div>
+</div>
+
+{% block more_js %}
+  {% if page.header.slides|length > 0 %}
+    {% set delay = page.header.slide_delay %}
+    {% if delay <= 0 %}
+      {% set delay = 5 %}
+    {% endif %}
+    {% set delay = delay * 1000 %}
+    {% if page.header.timer %}
+      {% set timer = 'true' %}
+    {% else %}
+      {% set timer = 'false' %}
+    {% endif %}
+    {% do assets.addJs('theme://js/vegas.min.js', {group:'bottom'}) %}
+
+    {% set script %}
+      $(document).ready(function() {
+          $(function() {
+              $('.main-jumbotron').vegas({
+                  delay: {{ delay }},
+                  timer: {{ timer }},
+                  slides: [
+                      {% for i in page.header.slides %}
+                      { src: '{{ page.media.images[i.image].cache().url() }}' }{% if loop.index < page.header.slides|length %},{% endif %}
+                      {% endfor %}
+                  ]
+              });
+          });
+      });
+    {% endset %}
+    {% do assets.addInlineJs(script, {group: 'bottom'}) %}
+  {% endif %}
+{% endblock %}
+
+<script>
+    window.addEventListener('load', function() {
+      // scroll to Our Services
+      document.querySelector('.js-smooth-scroll').addEventListener('click', function(e) {
+          e.preventDefault();
+          window.scroll({ top: 800, left: 0, behavior: 'smooth' });
+      });
+    });
+</script>

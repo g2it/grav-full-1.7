@@ -1,0 +1,34 @@
+title: Banner
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            header.desktop_slides:
+              type: list
+              label: Slides (for DESKTOP)
+              style: vertical
+              fields:
+                .image:
+                  type: filepicker
+                  label: Slide image
+                  preview_images: true
+                  accept:
+                    - .png
+                    - .jpg
+            header.mobile_slides:
+              type: list
+              label: Slides (for MOBILE)
+              style: vertical
+              fields:
+                .image:
+                  type: filepicker
+                  label: Slide image
+                  preview_images: true
+                  accept:
+                    - .png
+                    - .jpg
+            

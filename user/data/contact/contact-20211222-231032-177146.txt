@@ -1,0 +1,21 @@
+First Name: Anthony
+Last Name: Mantellato
+Phone: 0419902800
+Email: amantellato999@gmail.com
+Enquiry Details: Hi,
+
+I am interested in getting starlink but I have a question in regards to latency aka ping.
+
+Right now from wa to east cost is around 60-80 ping.
+
+Will this ping be reduced to the same speed anywhere in the world?
+
+WIll ping be reduced to the east cost?
+
+East cost is 60-80ms
+
+International is 200+
+
+I keep seeing that the ping for starlink is 20-50ms. Is that for all locations????
+
+

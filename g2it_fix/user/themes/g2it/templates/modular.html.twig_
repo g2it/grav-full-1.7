@@ -1,0 +1,57 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+  {% for module in page.collection() %}
+    {{ module.content }}
+
+    {% if module.template() == 'modular/counter' %}
+    {% do assets.addJs('//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js', {group:'bottom'}) %}
+    {% do assets.addJs('theme://js/jquery.counterup.js', {group:'bottom'}) %}
+
+      {% set script %}
+        jQuery(document).ready(function($) {
+          $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+          });
+        });
+      {% endset %}
+      {% do assets.addInlineJs(script, {group: 'bottom'}) %} 
+    {% endif %}
+
+    
+  {% endfor %}
+{% endblock %}
+
+
+{% for module in page.collection() %}
+  {% if module.header.is_owl_carousel is same as (true) %}
+    {% do assets.addCss('theme://css/owl.carousel.min.css', {group: 'morecss'}) %}
+    {% do assets.addCss('theme://css/owl.theme.default.min.css', {group: 'morecss'}) %}
+    {% do assets.addJs('theme://js/owl.carousel.min.js', {group:'bottom'}) %}
+
+    {% set script %}
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:30,
+            dotsEach: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+      });
+    {% endset %}
+    {% do assets.addInlineJs(script, {group: 'bottom'}) %} 
+  {% endif %}
+{% endfor %}

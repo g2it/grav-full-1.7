@@ -1,0 +1,21 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":1769:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:17:"home/_memberships";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:4:{s:5:"title";s:11:"Memberships";s:11:"media_order";s:62:"membership-1.png,membership-2.png,membership-3.png,300x500.png";s:7:"members";a:4:{i:0;a:3:{s:4:"name";s:5:"WALGA";s:4:"logo";s:16:"membership-1.png";s:3:"url";s:120:"https://walga.asn.au/Procurement/Preferred-Supplier-Program/Preferred-Supplier-Directory/Find-a-Preferred-Supplier/G2-IT";}i:1;a:3:{s:4:"name";s:4:"ECCI";s:4:"logo";s:16:"membership-2.png";s:3:"url";s:32:"https://www.esperancecci.com.au/";}i:2;a:3:{s:4:"name";s:4:"MCCC";s:4:"logo";s:16:"membership-3.png";s:3:"url";s:46:"https://www.mccc.org.au/directory/listing/g2it";}i:3;a:3:{s:4:"name";s:4:"ACSC";s:4:"logo";s:8:"acsc.png";s:3:"url";s:1:"#";}}s:15:"is_owl_carousel";b:1;}s:11:"frontmatter";s:607:"title: Memberships
+media_order: 'membership-1.png,membership-2.png,membership-3.png,300x500.png'
+members:
+    -
+        name: WALGA
+        logo: membership-1.png
+        url: 'https://walga.asn.au/Procurement/Preferred-Supplier-Program/Preferred-Supplier-Directory/Find-a-Preferred-Supplier/G2-IT'
+    -
+        name: ECCI
+        logo: membership-2.png
+        url: 'https://www.esperancecci.com.au/'
+    -
+        name: MCCC
+        logo: membership-3.png
+        url: 'https://www.mccc.org.au/directory/listing/g2it'
+    -
+        name: ACSC
+        logo: acsc.png
+        url: '#'
+is_owl_carousel: true";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:17:"home/_memberships";s:11:"storage_key";s:20:"01.home/_memberships";s:8:"template";s:11:"memberships";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:11:"memberships";i:1633959748;}}s:8:"checksum";s:32:"f27fc402214f41b446e044127146c852";}}}

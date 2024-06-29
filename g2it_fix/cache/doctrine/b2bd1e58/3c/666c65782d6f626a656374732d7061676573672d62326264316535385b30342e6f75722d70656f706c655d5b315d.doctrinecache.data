@@ -1,0 +1,6 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":911:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:10:"our-people";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:4:{s:5:"title";s:10:"Our people";s:4:"menu";s:10:"Our people";s:9:"view_more";s:8:"View All";s:7:"content";a:1:{s:5:"items";s:14:"@self.children";}}s:11:"frontmatter";s:97:"title: 'Our people'
+menu: 'Our people'
+view_more: 'View All'
+content:
+    items: '@self.children'";s:8:"markdown";s:0:"";}s:7:"storage";a:7:{s:3:"key";s:10:"our-people";s:11:"storage_key";s:13:"04.our-people";s:8:"template";s:6:"people";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:6:"people";i:1633959748;}}s:8:"children";a:8:{s:18:"01.vladimir-guiris";b:0;s:14:"02.alex-guiris";b:0;s:16:"03.mark-johnston";b:0;s:16:"04.robert-baines";b:0;s:14:"05.satyam-gopy";b:0;s:17:"06.sugan-shrestha";b:0;s:14:"07.beate-ruuck";b:0;s:14:"08.lana-guiris";b:0;}s:8:"checksum";s:32:"2c85f35784280d5daed9cff3f3d786ca";}}}

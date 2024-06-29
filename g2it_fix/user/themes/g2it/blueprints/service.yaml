@@ -1,0 +1,34 @@
+title: Service
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        service:
+          type: tab
+          title: Service
+          fields:
+            header.featured:
+              type: toggle
+              label: Featured
+              highlight: 1
+              help: If this field is set to 'true', this service will be shown on homepage
+              options:
+                1: PLUGIN_ADMIN.YES
+                0: PLUGIN_ADMIN.NO
+              validate:
+              type: bool
+            header.icon: 
+              type: pagemediaselect
+              preview_images: true
+              label: Icon
+            header.carousel_items: 
+              type: list
+              style: vertical
+              label: Carousel Items
+              fields:
+                .image: 
+                  type: pagemediaselect
+                  preview_images: true
+                  label: Image

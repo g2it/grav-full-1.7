@@ -1,0 +1,117 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":7626:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:10:"contact-us";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:7:{s:5:"title";s:10:"Contact us";s:4:"menu";s:10:"Contact us";s:15:"form_subheading";s:98:"General enquiries should be submitted by completing the form below and clicking the submit button.";s:7:"api_key";s:39:"AIzaSyC8AUGtxwRSMXuu4OmZLe4jHV08xI8OmqU";s:9:"locations";a:2:{i:0;a:4:{s:5:"title";s:16:"Esperance Office";s:7:"address";s:48:"Unit 2 / 58 Windich Street,<br>Esperance WA 6450";s:3:"lat";s:10:"-33.857572";s:4:"long";s:10:"121.893505";}i:1;a:4:{s:5:"title";s:12:"Perth Office";s:7:"address";s:43:"Unit 3 / 16 Mews Road,<br>Fremantle WA 6160";s:3:"lat";s:12:"-32.06335551";s:4:"long";s:12:"115.74980199";}}s:10:"map_center";a:2:{s:3:"lat";s:9:"-32.41986";s:4:"long";s:10:"118.687897";}s:4:"form";a:4:{s:4:"name";s:7:"contact";s:6:"fields";a:7:{i:0;a:9:{s:4:"name";s:5:"fname";s:5:"label";s:10:"First Name";s:10:"show_label";b:0;s:11:"placeholder";s:10:"First Name";s:12:"autocomplete";s:2:"on";s:7:"classes";s:22:"form-control name icon";s:15:"wrapper_classes";s:10:"form-group";s:4:"type";s:4:"text";s:8:"validate";a:1:{s:8:"required";b:1;}}i:1;a:9:{s:4:"name";s:5:"lname";s:5:"label";s:9:"Last Name";s:10:"show_label";b:0;s:11:"placeholder";s:9:"Last Name";s:12:"autocomplete";s:2:"on";s:7:"classes";s:27:"form-control last-name icon";s:15:"wrapper_classes";s:10:"form-group";s:4:"type";s:4:"text";s:8:"validate";a:1:{s:8:"required";b:1;}}i:2;a:9:{s:4:"name";s:5:"phone";s:5:"label";s:5:"Phone";s:10:"show_label";b:0;s:11:"placeholder";s:5:"Phone";s:12:"autocomplete";s:2:"on";s:7:"classes";s:23:"form-control phone icon";s:15:"wrapper_classes";s:10:"form-group";s:4:"type";s:4:"text";s:8:"validate";a:1:{s:8:"required";b:1;}}i:3;a:8:{s:4:"name";s:5:"email";s:5:"label";s:5:"Email";s:10:"show_label";b:0;s:11:"placeholder";s:6:"E-mail";s:7:"classes";s:23:"form-control email icon";s:15:"wrapper_classes";s:10:"form-group";s:4:"type";s:5:"email";s:8:"validate";a:1:{s:8:"required";b:1;}}i:4;a:9:{s:4:"name";s:6:"detail";s:5:"label";s:15:"Enquiry Details";s:10:"show_label";b:0;s:11:"placeholder";s:15:"Enquiry Details";s:4:"type";s:8:"textarea";s:7:"classes";s:12:"form-control";s:15:"wrapper_classes";s:10:"form-group";s:4:"rows";i:7;s:8:"validate";a:1:{s:8:"required";b:1;}}i:5;a:2:{s:4:"name";s:8:"honeypot";s:4:"type";s:8:"honeypot";}i:6;a:9:{s:4:"name";s:20:"g-recaptcha-response";s:5:"label";s:7:"Captcha";s:10:"show_label";b:0;s:15:"wrapper_classes";s:10:"form-group";s:7:"classes";s:12:"form-control";s:4:"type";s:7:"captcha";s:18:"recaptcha_site_key";s:40:"6LeKImQUAAAAADAkqqt79W1yw0CldQn-YWVM88kC";s:23:"recaptcha_not_validated";s:18:"Captcha not valid!";s:8:"validate";a:1:{s:8:"required";b:1;}}}s:7:"buttons";a:1:{i:0;a:3:{s:4:"type";s:6:"submit";s:5:"value";s:6:"Submit";s:7:"classes";s:25:"btn btn-primary btn-block";}}s:7:"process";a:4:{i:0;a:1:{s:7:"captcha";a:1:{s:16:"recaptcha_secret";s:40:"6LeKImQUAAAAAAZHC9WSHEih-YaE39JPBNb9-YDp";}}i:1;a:1:{s:5:"email";a:4:{s:4:"from";s:31:"{{ config.plugins.email.from }}";s:2:"to";a:2:{i:0;s:29:"{{ config.plugins.email.to }}";i:1;s:22:"{{ form.value.email }}";}s:7:"subject";s:43:"[Site Contact Form] {{ form.value.name|e }}";s:4:"body";s:36:"{% include 'forms/data.html.twig' %}";}}i:2;a:1:{s:4:"save";a:4:{s:10:"fileprefix";s:8:"contact-";s:10:"dateformat";s:9:"Ymd-His-u";s:9:"extension";s:3:"txt";s:4:"body";s:35:"{% include 'forms/data.txt.twig' %}";}}i:3;a:1:{s:7:"display";s:8:"thankyou";}}}}s:11:"frontmatter";s:3493:"title: 'Contact us'
+menu: 'Contact us'
+form_subheading: 'General enquiries should be submitted by completing the form below and clicking the submit button.'
+api_key: AIzaSyC8AUGtxwRSMXuu4OmZLe4jHV08xI8OmqU
+locations:
+    -
+        title: 'Esperance Office'
+        address: 'Unit 2 / 58 Windich Street,<br>Esperance WA 6450'
+        lat: '-33.857572'
+        long: '121.893505'
+    -
+        title: 'Perth Office'
+        address: 'Unit 3 / 16 Mews Road,<br>Fremantle WA 6160'
+        lat: '-32.06335551'
+        long: '115.74980199'
+map_center:
+    lat: '-32.41986'
+    long: '118.687897'
+form:
+    name: contact
+    fields:
+        -
+            name: fname
+            label: 'First Name'
+            show_label: false
+            placeholder: 'First Name'
+            autocomplete: 'on'
+            classes: 'form-control name icon'
+            wrapper_classes: form-group
+            type: text
+            validate:
+                required: true
+        -
+            name: lname
+            label: 'Last Name'
+            show_label: false
+            placeholder: 'Last Name'
+            autocomplete: 'on'
+            classes: 'form-control last-name icon'
+            wrapper_classes: form-group
+            type: text
+            validate:
+                required: true
+        -
+            name: phone
+            label: Phone
+            show_label: false
+            placeholder: Phone
+            autocomplete: 'on'
+            classes: 'form-control phone icon'
+            wrapper_classes: form-group
+            type: text
+            validate:
+                required: true
+        -
+            name: email
+            label: Email
+            show_label: false
+            placeholder: E-mail
+            classes: 'form-control email icon'
+            wrapper_classes: form-group
+            type: email
+            validate:
+                required: true
+        -
+            name: detail
+            label: 'Enquiry Details'
+            show_label: false
+            placeholder: 'Enquiry Details'
+            type: textarea
+            classes: form-control
+            wrapper_classes: form-group
+            rows: 7
+            validate:
+                required: true
+                
+        -   
+            name: honeypot
+            type: honeypot
+
+        -
+            name: g-recaptcha-response
+            label: Captcha
+            show_label: false
+            wrapper_classes: form-group
+            classes: form-control
+            type: captcha
+            recaptcha_site_key: 6LeKImQUAAAAADAkqqt79W1yw0CldQn-YWVM88kC
+            recaptcha_not_validated: 'Captcha not valid!'
+            validate:
+                required: true
+    buttons:
+        -
+            type: submit
+            value: Submit
+            classes: 'btn btn-primary btn-block'
+    process:
+        -
+            captcha:
+                recaptcha_secret: 6LeKImQUAAAAAAZHC9WSHEih-YaE39JPBNb9-YDp
+        -
+            email:
+                from: '{{ config.plugins.email.from }}'
+                to:
+                    - '{{ config.plugins.email.to }}'
+                    - '{{ form.value.email }}'
+                subject: '[Site Contact Form] {{ form.value.name|e }}'
+                body: '{% include ''forms/data.html.twig'' %}'
+        -
+            save:
+                fileprefix: contact-
+                dateformat: Ymd-His-u
+                extension: txt
+                body: '{% include ''forms/data.txt.twig'' %}'
+        -
+            display: thankyou";s:8:"markdown";s:293:"We welcome your feedback, suggestions or questions about our website, our services or any other aspect of our business. This valuable information helps us to ensure our services remain at the high standard our clients have come to expect, and meet all expectations. Call us on **1300 325 487**";}s:7:"storage";a:7:{s:3:"key";s:10:"contact-us";s:11:"storage_key";s:13:"08.contact-us";s:8:"template";s:7:"contact";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"contact";i:1633959748;}}s:8:"children";a:1:{s:8:"thankyou";b:0;}s:8:"checksum";s:32:"4f2877d3dbb95720e17b88994bb5fcc0";}}}

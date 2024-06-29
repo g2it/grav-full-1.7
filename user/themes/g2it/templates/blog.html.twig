@@ -1,0 +1,34 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+  <div class="container ptb-95 blog-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-18 col-md-offset-3">
+          {% include 'partials/breadcrumbs.html.twig' %}
+          <h1 class="section-header">{{ page.header.title }}</h1>
+          {% set collection = page.collection() %}`
+          {% for child in collection %}
+            <div class="item">
+              <div class="row">
+                <div class="col-md-3">
+                  <span class="day">{{ child.date|date('d') }}</span>
+                  <span class="month-year">{{ child.date|date('M Y') }}</span>
+                </div>
+                <div class="col-md-21 content">
+                  <a href="{{ child.url }}"><h5 class="title">{{ child.title }}</h5></a>
+                  {{ child.summary(75)|striptags('<b><strong><br><i><em><blockquote>') }}
+                  {% for tag in child.taxonomy.tag %}
+                    <a href="{{ base_url }}/blog/tag{{ config.system.param_sep }}{{ tag }}" rel="tag" class="tag">{{ tag }}</a>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
+      </div>
+    </div>
+  </div>
+{% endblock %}
+

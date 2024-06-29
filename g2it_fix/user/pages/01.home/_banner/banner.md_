@@ -1,0 +1,16 @@
+---
+title: 'Here For You'
+media_order: 'airplane.jpg,balloon.jpg,here-for-you.png,jumbotron-bg.jpg,Infrastructure v1.1.png,Cloud v1.1.png,Security v1.1.png'
+logo: here-for-you.png
+sub_header: 'Internet technologies'
+slides:
+    -
+        image: 'Cloud 1.2.png'
+    -
+        image: 'Infrastructure v1.1.png'
+    -
+        image: 'Security v1.1.png'
+slide_delay: 10
+timer: true
+---
+

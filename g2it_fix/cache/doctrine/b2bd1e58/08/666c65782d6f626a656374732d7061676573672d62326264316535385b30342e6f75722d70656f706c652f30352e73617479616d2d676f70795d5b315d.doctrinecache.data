@@ -1,0 +1,27 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":2060:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:22:"our-people/satyam-gopy";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:16:{s:5:"title";s:11:"Satyam Gopy";s:11:"media_order";s:19:"Satyam Gopy - s.jpg";s:8:"position";s:13:"IT Technician";s:9:"published";b:1;s:18:"twittercardoptions";s:7:"summary";s:14:"articleenabled";b:0;s:17:"musiceventenabled";b:0;s:11:"orgaenabled";b:0;s:4:"orga";a:1:{s:11:"ratingValue";d:2.5;}s:17:"orgaratingenabled";b:0;s:12:"eventenabled";b:0;s:13:"personenabled";b:0;s:17:"restaurantenabled";b:0;s:10:"restaurant";a:2:{s:19:"acceptsReservations";s:3:"yes";s:10:"priceRange";s:1:"$";}s:13:"twitterenable";b:1;s:14:"facebookenable";b:1;}s:11:"frontmatter";s:411:"title: 'Satyam Gopy'
+media_order: 'Satyam Gopy - s.jpg'
+position: 'IT Technician'
+published: true
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $
+twitterenable: true
+facebookenable: true";s:8:"markdown";s:638:"<p>Satyam has joined the team at G2IT Fremantle in 2021.</p>
+<p>He is currently in his final year of Bachelor of Science (Cyber Security) at Edith Cowan University, studying full-time and working part-time at G2IT. Satyam has experience in the education sector in Mauritius and has grown a keen interest in the technology field over the recent years.</p>
+<p>Satyam currently holds the following certifications:</p>
+<ul>
+<li>Cert IV in IT - Networking</li>
+<li>Diploma of IT - Networking</li>
+</ul>
+<p><a href="https://www.linkedin.com/in/satyam-kumar-gopy-49501717b/" target="_blank" rel="noopener">Connect with Satyam on LinkedIn</a></p>";}s:7:"storage";a:6:{s:3:"key";s:22:"our-people/satyam-gopy";s:11:"storage_key";s:28:"04.our-people/05.satyam-gopy";s:8:"template";s:6:"member";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:6:"member";i:1633959748;}}s:8:"checksum";s:32:"c358b30ca2977ee9f66103e99736d7e1";}}}

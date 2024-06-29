@@ -1,0 +1,13 @@
+<div class="our-goals-section">
+  <div class="our-goals">
+    {% for item in page.header.counter_items %}
+    <div class="our-goals__goal">
+      <div class="our-goals__goal__icon" style="background-image: url('{{ page.media[item.image].cache.url() }}');"></div>
+      <div class="our-goals__goal__title">
+        <span class="our-goals__goal__title__number counter">{{ item.number }}</span> {{ item.text }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+

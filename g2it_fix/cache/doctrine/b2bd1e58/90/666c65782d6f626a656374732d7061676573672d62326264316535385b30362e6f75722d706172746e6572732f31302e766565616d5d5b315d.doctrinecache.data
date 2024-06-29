@@ -1,0 +1,20 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":2158:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:18:"our-partners/veeam";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:12:{s:5:"title";s:5:"Veeam";s:11:"media_order";s:9:"veeam.png";s:18:"twittercardoptions";s:7:"summary";s:14:"articleenabled";b:0;s:17:"musiceventenabled";b:0;s:11:"orgaenabled";b:0;s:4:"orga";a:1:{s:11:"ratingValue";d:2.5;}s:17:"orgaratingenabled";b:0;s:12:"eventenabled";b:0;s:13:"personenabled";b:0;s:17:"restaurantenabled";b:0;s:10:"restaurant";a:2:{s:19:"acceptsReservations";s:3:"yes";s:10:"priceRange";s:1:"$";}}s:11:"frontmatter";s:308:"title: Veeam
+media_order: veeam.png
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $";s:8:"markdown";s:974:"With the hyper-growth and hyper-sprawl of today’s data, traditional data management is not enough. Data must become Hyper‑Available.
+Getting there requires a new approach that merges the traditional disciplines of data backup and recovery, data protection and data security. Moving from policy-based to behavior-based management to make data both intelligent, and ultimately, self-governing.
+As the leader in Availability across multi-cloud environments, Veeam® is uniquely positioned to help customers along their journey to Intelligent Data Management.
+
+Provide for the security of data from a systemic perspective; secure, back up, and recover your data wherever it is so it can always be protected against outages, attack, loss, or theft. This stage is about making sure you can get your data back if it is lost or compromised, and that your business can survive; however, there are minimal data insights at this stage, and data is often stored in individual silos.";}s:7:"storage";a:6:{s:3:"key";s:18:"our-partners/veeam";s:11:"storage_key";s:24:"06.our-partners/10.veeam";s:8:"template";s:7:"partner";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"partner";i:1633959748;}}s:8:"checksum";s:32:"0d6476525d536edb7dc40fbf85fec3cb";}}}

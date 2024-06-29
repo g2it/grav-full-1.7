@@ -1,0 +1,26 @@
+First Name: Laura
+Last Name: Claxton
+Phone: 93359339
+Email: info@sivanandaashram.org.au
+Office: esperance
+Enquiry Details: Hello there Mark,
+I believe you have been dealing with my colleague Denise here at the Sivananda Ashram regarding GMAIL bounce backs.
+Can we please book in a time in the NY (or next week) to resolve this problem. We are happy to pay the $300
+
+Correspondence from you guys below
+
+We have found that your DNS, DKIM, and DMARC records are either insufficiently configured or missing altogether. These records play a critical role in ensuring that your emails are authenticated, secure, and trusted by email service providers, which directly impacts the successful delivery of your messages.
+ 
+To address this issue and fortify your email infrastructure, we recommend the implementation and configuration of DNS, DKIM, and DMARC records for your domain. By doing so, you will significantly reduce the risk of email spoofing and phishing, enhance your domain's reputation, and ensure that your messages are reliably delivered to recipients' inboxes.
+ 
+To ensure the security and reliability of your email communication, we recommend configuring DNS, DKIM, and DMARC records for your domain.
+
+This will cost $300 AUD ex GST for the configuration.
+ 
+Please let us know by approving the quote for us to proceed further. Additionally, we will require admin access to the Domain hosting platform which is VentraIP login.
+
+Many thanks,
+
+Laura 
+
+

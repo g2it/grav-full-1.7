@@ -1,0 +1,24 @@
+1633960481
+C:39:"Grav\Common\Flex\Types\Pages\PageObject":2509:{a:4:{s:4:"type";s:5:"pages";s:3:"key";s:22:"our-partners/microsoft";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:12:{s:5:"title";s:9:"Microsoft";s:11:"media_order";s:18:"microsoft_logo.png";s:18:"twittercardoptions";s:7:"summary";s:14:"articleenabled";b:0;s:17:"musiceventenabled";b:0;s:11:"orgaenabled";b:0;s:4:"orga";a:1:{s:11:"ratingValue";d:2.5;}s:17:"orgaratingenabled";b:0;s:12:"eventenabled";b:0;s:13:"personenabled";b:0;s:17:"restaurantenabled";b:0;s:10:"restaurant";a:2:{s:19:"acceptsReservations";s:3:"yes";s:10:"priceRange";s:1:"$";}}s:11:"frontmatter";s:321:"title: Microsoft
+media_order: microsoft_logo.png
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $";s:8:"markdown";s:1285:"G2IT has partnered with Microsoft Cloud Services to become a Small and Midmarket Cloud Solutions provider. We specialise in connecting people with Cloud Services such as Exchange, SharePoint, Dynamic 365, Teams, Yammer and Skype for Business. We develop custom solutions to meet our customer needs. Microsoft Cloud Services are slowly becoming a worldwide standard when streamlining the internal process, creating workflows and data management.
+ 
+**Exchange with Office 365** provides you with a range of future, starting from Data Loss Prevention, Mailbox Litigation Holding, Calendar Sharing, Mobile Device Managment, Data Governance, Threat Managment and much more.
+
+**Microsoft Teams and Yammer** are excellent platforms for in-office collaboration, where yo can create Channels, Groups or Message each other individually.
+
+**Microsoft SharePoint** is primarily a Document Management and Storage Subsystem. Can be customised to create Work Flows, Groups, Version Control, Outlook Web App and Yammer Integration.
+
+**Microsoft Dynamics 365** offers an extensive range of service, which includes Financial and Inventory Managment, Sales, Purchasing, Reporting and Analytics, and Project Managment. You can add-on the service as you grow and your company requirements change over time.";}s:7:"storage";a:6:{s:3:"key";s:22:"our-partners/microsoft";s:11:"storage_key";s:28:"06.our-partners/09.microsoft";s:8:"template";s:7:"partner";s:17:"storage_timestamp";i:1633959748;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"partner";i:1633959748;}}s:8:"checksum";s:32:"67436d589970d4f43b76e1f44b32445b";}}}

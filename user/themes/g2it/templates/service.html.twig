@@ -1,0 +1,85 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block more_css %}
+  {% do assets.addCss('theme://css/flexslider.css', {group: 'morecss'}) %}
+{% endblock %}
+
+{% block more_js %}
+  {% do assets.addJs('theme://js/jquery.flexslider.js', {group:'bottom'}) %}
+{% endblock %}
+
+
+
+{% block content %}
+  <div class="container ptb-95 service-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-20 col-md-offset-2">
+          {% include 'partials/breadcrumbs.html.twig' %}
+          <h1 class="section-header">{{ page.header.title }}</h1>
+          {{ page.content }}
+
+          <div id="slider" class="flexslider">
+            <ul class="slides">
+              {% for item in page.header.carousel_items %}
+              <li>
+                <img src="{{ page.media.images[item.image].cache.url() }}">
+              </li>
+              {% endfor %}
+            </ul>
+
+            {% if page.header.carousel_items|length > 0 %}
+            <div class="custom-navigation">
+              <a class="btn btn-primary btn-sm icon-angle-left flex-prev" href="#"></a>
+              <div class="custom-controls-container"></div>
+              <a class="btn btn-primary btn-sm icon-angle-right flex-next" href="#"></a>
+            </div>
+            {% endif %}
+          </div>
+
+
+
+          <div id="carousel" class="flexslider">
+            <ul class="slides">
+              {% for item in page.header.carousel_items %}
+              <li>
+                <img src="{{ page.media.images[item.image].cache.url() }}">
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+
+          <div class="text-center"><a href="{{ page.parent.url }}" class="btn btn-primary">{{ 'THEME.SITE.BACK'|t }}</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% if page.header.carousel_items|length > 0 %}
+  {% set script %}
+    $(window).load(function() {
+      // The slider being synced must be initialized first
+      $('#carousel').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        itemWidth: 210,
+        itemMargin: 15,
+        asNavFor: '#slider'
+      });
+
+      $('#slider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        controlsContainer: $(".custom-controls-container"),
+        customDirectionNav: $(".custom-navigation a"),
+        animationLoop: false,
+        slideshow: false,
+        sync: "#carousel"
+      });
+    });
+  {% endset %}
+  {% do assets.addInlineJs(script, {group: 'bottom'}) %}
+  {% endif %}
+{% endblock %}

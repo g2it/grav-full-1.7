@@ -1,0 +1,250 @@
+{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+
+<!DOCTYPE html>
+<html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}">
+<head>
+{% block head %}
+    <meta charset="utf-8" />
+    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    {% include 'partials/metadata.html.twig' %}
+
+    {% set favicon_url = theme_config.favicon ? url('theme://images/' ~ theme_config.favicon) : url('theme://images/favicon.png') %}
+    {% set favicon_apple_url = theme_config.favicon_apple ? url('theme://images/' ~ theme_config.favicon_apple) : url('theme://images/favicon.png') %}
+    {% set favicon_72_url = theme_config.favicon_72 ? url('theme://images/' ~ theme_config.favicon_72) : url('theme://images/favicon.png') %}
+    {% set favicon_144_url = theme_config.favicon_144 ? url('theme://images/' ~ theme_config.favicon_144) : url('theme://images/favicon.png') %}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ favicon_url }}" />
+    <link rel="apple-touch-icon" href="{{ favicon_apple_url }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ favicon_72_url }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ favicon_144_url }}">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+    <link rel="canonical" href="{{ page.url(true, true) }}" />
+
+    {% block stylesheets %}
+        {% do assets.addCss('theme://css/main.min.css') %}
+        {% do assets.addCss('theme://css/custom.css') %}
+        {% if page.template == 'modular' %}
+          {% for child in page.children %}
+            {% if child.template == 'modular/banner' %}
+              {% do assets.addCss('theme://css/vegas.min.css') %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+    {% endblock %}
+    {{ assets.css() }}
+
+    {% block more_css %}{% endblock %}
+    {{ assets.css('morecss') }}
+
+
+    {% block javascripts %}
+        {% do assets.addJs('jquery', 101) %}
+        {% do assets.addJs('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', {group:'bottom'}) %}
+        {% do assets.addJs('theme://js/smooth-scroll.min.js', {group:'bottom'}) %}
+        {% do assets.addJs('theme://js/jquery.mobile.custom.min.js', {group:'bottom'}) %}
+    {% endblock %}
+    {{ assets.js() }}
+
+    {% block more_js %}{% endblock %}
+
+
+{% endblock head %}
+</head>
+<body id="top" class="top {% block body_classes %}{{ page.header.body_classes }}{% endblock %}">
+<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v9.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="305461476209146">
+      </div>
+      
+  <nav class="navbar navbar-default">
+    <div class="topbar text-right">
+      <div class="container">
+        {% set pay_invoice_page = pages.find(theme_config.pay_invoice_page) %}
+        {% if pay_invoice_page %}
+        <a href="{{ pay_invoice_page.route }}" class="btn top-bar-btn pay-invoice">
+          <span class="icon" style="background-image: url('{{ pay_invoice_page.media.images['dollar_icon.png'].cache.url() }}');"></span> {{ pay_invoice_page.title }}
+        </a>
+        {% endif %}
+        {% set tools_page = pages.find(theme_config.topbar.tools_page) %}
+        {% if tools_page %}
+        <div class="dropdown">
+          <button class="btn top-bar-btn tools dropdown-toggle" type="button" data-toggle="dropdown"><span class="caret-down"></span>{{ tools_page.menu }}</button>
+          <ul class="dropdown-menu">
+            {% for p in tools_page.children %}
+              <li><a href="{{ p.url }}"><span class="icon" style="background-image: url('{{ p.media.images|first.cache.url() }}');"></span>{{ p.menu }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+        <a href="{{ theme_config.facebook }}" class="facebook" target="_blank">
+          <svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M18,32V18h6l1-6h-7V9c0-2,1.002-3,3-3h3V0c-1,0-3.24,0-5,0c-5,0-7,3-7,8v4H6v6h6v14H18z" id="f_1_"/><g/><g/><g/><g/><g/><g/></svg>
+        </a>
+        <a href="{{ theme_config.linkedin }}" class="linkedin" target="_blank">
+          <svg id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="XMLID_184_"><path class="st0" d="M130.5,289h53.8v173h-53.8V289z M157.5,203c17.2,0,31.2,14,31.2,31.2   c0,17.2-14,31.2-31.2,31.2c-17.3,0-31.2-14-31.2-31.2C126.3,217,140.2,203,157.5,203" id="XMLID_195_"/><path class="st0" d="M218.1,289h51.5v23.7h0.7c7.2-13.6,24.7-27.9,50.9-27.9c54.4,0,64.5,35.8,64.5,82.4V462H332   v-84.1c0-20.1-0.3-45.9-27.9-45.9c-28,0-32.2,21.9-32.2,44.4V462h-53.7V289z" id="XMLID_192_"/></g></svg>
+        </a>
+        <a href="tel:{{ theme_config.phone|replace({'(':'', ')':'', '-':'', ' ':'', '.':'', '+':''}) }}" class="phone">
+          <svg enable-background="new 0 0 30 30" height="30px" id="Capa_1" version="1.1" viewBox="0 0 30 30" width="30px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M23.7,14.9c0,0.4,0.3,0.8,0.8,0.8s0.8-0.3,0.8-0.8c0-5.5-4.5-10-10-10c-0.4,0-0.8,0.3-0.8,0.8  s0.3,0.8,0.8,0.8C19.9,6.4,23.7,10.2,23.7,14.9z M14.5,9.7c0,0.4,0.3,0.8,0.8,0.8c2.4,0,4.3,1.9,4.3,4.3c0,0.4,0.3,0.8,0.8,0.8  s0.8-0.3,0.8-0.8c0-3.2-2.6-5.8-5.8-5.8C14.8,9,14.5,9.3,14.5,9.7z M15.2,0.2c-0.4,0-0.8,0.3-0.8,0.8s0.3,0.8,0.8,0.8  c7.2,0,13.1,5.9,13.1,13.1c0,0.4,0.3,0.8,0.8,0.8s0.8-0.3,0.8-0.8C29.8,6.8,23.3,0.2,15.2,0.2z M19.4,17.7c-0.1-0.1-0.3-0.2-0.5-0.2  h0c-0.2,0-0.4,0.1-0.5,0.2l-1.6,1.6c-0.6,0.6-1.6,0.6-2.2,0l-3.7-3.4c-0.6-0.6-0.6-1.6,0-2.2l1.8-1.8c0.3-0.3,0.3-0.8,0-1.1L5.3,3.5  C5.2,3.4,5,3.3,4.8,3.3c-0.2,0-0.4,0.1-0.5,0.2c-0.1,0.1-2.4,2.4-2.9,3C0,7.9-0.2,10.8,0.8,13.3c2.2,5.5,9.5,12.2,15.6,15.9  c0.5,0.3,1.7,0.6,2.9,0.6c0,0,0,0,0,0c1.1,0,2.7-0.2,4.1-1.4c1.3-1.1,2.8-2.7,2.9-2.8c0.3-0.3,0.3-0.8,0-1L19.4,17.7z M22.4,27.2  c-1,0.9-2.2,1-3.1,1c0,0,0,0,0,0c-1.1,0-2-0.3-2.1-0.4C10.3,23.7,4,17.4,2.2,12.7c-0.8-2.1-0.5-4.4,0.2-5.2C2.8,7.1,4,5.9,4.8,5.1  l6.2,6.2l-1.3,1.3c-1.2,1.2-1.2,3.1,0,4.3l3.7,3.4c1.1,1.1,3.1,1.1,4.3,0l1.1-1.1l5.8,5.8C24.1,25.7,23.2,26.6,22.4,27.2z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="{{ base_url == '' ? '/' : base_url }}">
+          <img src="{{ url('theme://images/' ~ theme_config.logo) }}" alt="{{ site.title|e('html') }}" height="88">
+        </a>
+        <ul class="mobile-only">
+          <li id="socials">
+            <a href="tel:{{ theme_config.phone|replace({'(':'', ')':'', '-':'', ' ':'', '.':'', '+':''}) }}" class="phone">
+              <svg enable-background="new 0 0 30 30" id="Capa_1" version="1.1" viewBox="0 0 30 30" width="30px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M23.7,14.9c0,0.4,0.3,0.8,0.8,0.8s0.8-0.3,0.8-0.8c0-5.5-4.5-10-10-10c-0.4,0-0.8,0.3-0.8,0.8  s0.3,0.8,0.8,0.8C19.9,6.4,23.7,10.2,23.7,14.9z M14.5,9.7c0,0.4,0.3,0.8,0.8,0.8c2.4,0,4.3,1.9,4.3,4.3c0,0.4,0.3,0.8,0.8,0.8  s0.8-0.3,0.8-0.8c0-3.2-2.6-5.8-5.8-5.8C14.8,9,14.5,9.3,14.5,9.7z M15.2,0.2c-0.4,0-0.8,0.3-0.8,0.8s0.3,0.8,0.8,0.8  c7.2,0,13.1,5.9,13.1,13.1c0,0.4,0.3,0.8,0.8,0.8s0.8-0.3,0.8-0.8C29.8,6.8,23.3,0.2,15.2,0.2z M19.4,17.7c-0.1-0.1-0.3-0.2-0.5-0.2  h0c-0.2,0-0.4,0.1-0.5,0.2l-1.6,1.6c-0.6,0.6-1.6,0.6-2.2,0l-3.7-3.4c-0.6-0.6-0.6-1.6,0-2.2l1.8-1.8c0.3-0.3,0.3-0.8,0-1.1L5.3,3.5  C5.2,3.4,5,3.3,4.8,3.3c-0.2,0-0.4,0.1-0.5,0.2c-0.1,0.1-2.4,2.4-2.9,3C0,7.9-0.2,10.8,0.8,13.3c2.2,5.5,9.5,12.2,15.6,15.9  c0.5,0.3,1.7,0.6,2.9,0.6c0,0,0,0,0,0c1.1,0,2.7-0.2,4.1-1.4c1.3-1.1,2.8-2.7,2.9-2.8c0.3-0.3,0.3-0.8,0-1L19.4,17.7z M22.4,27.2  c-1,0.9-2.2,1-3.1,1c0,0,0,0,0,0c-1.1,0-2-0.3-2.1-0.4C10.3,23.7,4,17.4,2.2,12.7c-0.8-2.1-0.5-4.4,0.2-5.2C2.8,7.1,4,5.9,4.8,5.1  l6.2,6.2l-1.3,1.3c-1.2,1.2-1.2,3.1,0,4.3l3.7,3.4c1.1,1.1,3.1,1.1,4.3,0l1.1-1.1l5.8,5.8C24.1,25.7,23.2,26.6,22.4,27.2z" fill="#262324"/></svg>
+            </a>
+          </li>
+        </ul>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="main-navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          {% include 'partials/navigation.html.twig' %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  {% block content %}{% endblock %}
+
+  {% if page.home() %}
+    {% if theme_config.popup.show == 'show' %}
+    <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <div class="modal-title" id="myModalLabel">
+              <img src="{{ url('theme://images/' ~ theme_config.logo) }}" alt="{{ site.title|e('html') }}" width="105" height="66">
+              <h2>{{ theme_config.popup.title }}</h2>
+            </div>
+          </div>
+          <div class="modal-body">
+            {{ theme_config.popup.content|markdown }}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+  {% endif %}
+
+  <footer class="footer">
+    <div class="container footer__main">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="footer__logo">
+            <img src="{{ url('theme://images/' ~ theme_config.logo) }}" alt="{{ site.title|e('html') }}" width="170" height="105">
+          </div>
+          <p class="footer__our-focus">{{ theme_config.short_description }}</p>
+        </div>
+
+        <div class="col-md-offset-1 col-md-5">
+          <h3 class="footer__column__header">{{ theme_config.communications.headline }}</h3>
+          <ul class="footer__communications">
+            <li>{{ theme_config.communications.hotline }}</li>
+            <li>{{ theme_config.communications.email }}</li>
+            <li>{{ theme_config.communications.phone }}</li>
+          </ul>
+          <div class="img-block">
+            {% if theme_config.icons.icon_1 %}
+            <img class="img-responsive" width='120' src="{{ url('theme://images/' ~ theme_config.icons.icon_1) }}" alt="{{ theme_config.icons.icon_1_alt }}"/>
+            {% endif %}
+            {% if theme_config.icons.icon_2 %}
+            <img class="img-responsive" width='230' src="{{ url('theme://images/' ~ theme_config.icons.icon_2) }}" alt="{{ theme_config.icons.icon_2_alt }}"/>
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="col-md-offset-1 col-md-5">
+          <h3 class="footer__column__header">{{ theme_config.locations.headline }}</h3>
+          {% for place in theme_config.locations.items %}
+          <div class="footer__locations__unit">
+            <div class="footer__locations__unit__name">{{ place.name }}</div>
+            <div class="footer__locations__unit__adress">
+              {{ place.address }}
+            </div>
+          </div>
+          {% endfor %}
+
+        </div>
+        <div class="col-md-offset-1 col-md-5">
+          <h3 class="footer__column__header">{{ theme_config.info.headline }}</h3>
+          <ul class="footer__info">
+            {% for item in theme_config.info.items %}
+              <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-24">
+          <div class="pull-right"><a href="#top" class="icon-angle-up footer__scroll-to-top js-scroll-to-top"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copyrights">
+      {{ site.title|e('html') }}. {{ "now"|date("Y") }} {{ theme_config.copyright }}
+    </div>
+  </footer>
+
+  {% block bottom %}
+      {{ assets.js('bottom') }}
+  {% endblock %}
+  <script>
+    window.addEventListener('load', function() {
+      // scroll to top
+      document.querySelector('.js-scroll-to-top').addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+      });
+    });
+  </script>
+
+  {% if page.home() %}
+    {% if theme_config.popup.show == 'show' %}
+    <script>
+      $( document ).ready(function() {
+          $('#basicModal').modal('show');
+      });
+    </script>
+    {% endif %}
+  {% endif %}
+</body>

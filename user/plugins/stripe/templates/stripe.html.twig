@@ -1,0 +1,141 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+<div class="container ptb-95 default">
+  <div class="row">
+    <div class="col-md-20 col-md-offset-2">
+      {% include 'partials/breadcrumbs.html.twig' %}
+      {{ page.content }}
+
+      <div class="stripe">
+
+        <div class="success-message">
+          {{ page.header.success_message|markdown }}
+        </div>
+
+        <form>
+          <div class="error notices red">
+            <div class="message"></div>
+          </div>
+          <div data-locale-reversible>
+            <div class="row" data-locale-reversible>
+              <div class="field half-width">
+                <input id="stripe-invoice-number" data-tid="form.invoice_number_placeholder" class="input empty" type="text" placeholder="" required="">
+                <label for="stripe-invoice-number" data-tid="form.invoice_number_label">Invoice Number</label>
+                <div class="baseline"></div>
+              </div>
+              <div class="field half-width">
+                <input id="stripe-amount" data-tid="form.amount_placeholder" class="input empty" type="text" placeholder="" required="">
+                <label for="stripe-amount" data-tid="form.amount_label">Amount</label>
+                <div class="baseline"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="field">
+                <input id="stripe-name" data-tid="form.name_placeholder" class="input empty" type="text" placeholder="" required="" autocomplete="name">
+                <label for="stripe-name" data-tid="form.name_label">Name</label>
+                <div class="baseline"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="field">
+                <input id="stripe-address" data-tid="form.address_placeholder" class="input empty" type="text" placeholder="" required="" autocomplete="address-line1">
+                <label for="stripe-address" data-tid="form.address_label">Address</label>
+                <div class="baseline"></div>
+              </div>
+            </div>
+            <div class="row" data-locale-reversible>
+              <div class="field half-width">
+                <input id="stripe-city" data-tid="form.city_placeholder" class="input empty" type="text" placeholder="" required="" autocomplete="address-level2">
+                <label for="stripe-city" data-tid="form.city_label">City</label>
+                <div class="baseline"></div>
+              </div>
+              <div class="field quarter-width">
+                <input id="stripe-state" data-tid="form.state_placeholder" class="input empty" type="text" placeholder="" required="" autocomplete="address-level1">
+                <label for="stripe-state" data-tid="form.state_label">State</label>
+                <div class="baseline"></div>
+              </div>
+              <div class="field quarter-width">
+                <input id="stripe-zip" data-tid="form.postal_code_placeholder" class="input empty" type="text" placeholder="" required="" autocomplete="postal-code">
+                <label for="stripe-zip" data-tid="form.postal_code_label">ZIP</label>
+                <div class="baseline"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="field">
+              <div id="stripe-card-number" class="input empty"></div>
+              <label for="stripe-card-number" data-tid="form.card_number_label">Card number</label>
+              <div class="baseline"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="field half-width">
+              <div id="stripe-card-expiry" class="input empty"></div>
+              <label for="stripe-card-expiry" data-tid="form.card_expiry_label">Expiration</label>
+              <div class="baseline"></div>
+            </div>
+            <div class="field half-width">
+              <div id="stripe-card-cvc" class="input empty"></div>
+              <label for="stripe-card-cvc" data-tid="form.card_cvc_label">CVC</label>
+              <div class="baseline"></div>
+            </div>
+          </div>
+          <button type="submit" data-tid="form.pay_button">Pay</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  stripe = Stripe('{{ config.plugins.stripe.public_key }}');
+
+  var elements = stripe.elements({
+    locale: 'auto'
+  });
+
+  var inputs = document.querySelectorAll('.stripe .input');
+
+  Array.prototype.forEach.call(inputs, function(input) {
+    input.addEventListener('focus', function() {
+      input.classList.add('focused');
+    });
+    input.addEventListener('blur', function() {
+      input.classList.remove('focused');
+    });
+    input.addEventListener('keyup', function() {
+      if (input.value.length === 0) {
+        input.classList.add('empty');
+      } else {
+        input.classList.remove('empty');
+      }
+    });
+  });
+
+  var elementClasses = {
+    focus: 'focused',
+    empty: 'empty',
+    invalid: 'invalid',
+  };
+
+  var cardNumber = elements.create('cardNumber', {
+    classes: elementClasses,
+  });
+  cardNumber.mount('#stripe-card-number');
+
+  var cardExpiry = elements.create('cardExpiry', {
+    classes: elementClasses,
+  });
+  cardExpiry.mount('#stripe-card-expiry');
+
+  var cardCvc = elements.create('cardCvc', {
+    classes: elementClasses,
+  });
+  cardCvc.mount('#stripe-card-cvc');
+
+  registerElements([cardNumber, cardExpiry, cardCvc], 'stripe');
+})
+</script>
+{% endblock %}

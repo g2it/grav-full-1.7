@@ -1,0 +1,7 @@
+First Name: Stuart
+Last Name: MacLeod
+Phone: 0407152110
+Email: stu@fremantlefoundation.org.au
+Office: fremantle
+Enquiry Details: Hi there, I am keen to migrate our current email/cloud storage etc from Google to M365. I need help migrating the domain to issue the email addresses out of M365 Admin. Are you able to provide a quote to do this?
+
